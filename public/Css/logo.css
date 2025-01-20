@@ -1,0 +1,32 @@
+/* Logo en haut à gauche */
+.logo {
+    position: fixed; /* Fixé en haut à gauche */
+    top: 10px; /* Distance du haut */
+    left: 10px; /* Distance de la gauche */
+    background: linear-gradient(135deg, #3498db, #1abc9c); /* Fond dégradé */
+    color: white; /* Couleur du texte */
+    font-size: 32px; /* Taille de la lettre */
+    font-weight: bold; /* Épaisseur du texte */
+    padding: 15px; /* Espacement intérieur */
+    border-radius: 50%; /* Forme arrondie */
+    text-align: center; /* Centrer le contenu */
+    width: 60px; /* Largeur fixe */
+    height: 60px; /* Hauteur fixe */
+    display: flex; /* Flexbox pour centrer le texte */
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 2px 4px rgba(255, 255, 255, 0.2); /* Ombre externe et interne */
+    border: 2px solid white; /* Contour blanc pour plus de style */
+    transition: transform 0.3s ease-in-out; /* Animation au survol */
+}
+
+.logo span {
+    font-family: 'Poppins', sans-serif; /* Police moderne */
+    font-size: 28px; /* Taille spécifique pour la lettre */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre pour plus de profondeur */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Légère augmentation de taille au survol */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Accentuation de l'ombre */
+}

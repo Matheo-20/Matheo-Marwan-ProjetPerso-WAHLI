@@ -14,6 +14,11 @@ class ClientController extends Controller {
         return view ('connexionClient');
     }
 
+    public function Pizza(){
+        return view ('Pizza');
+    }
+
+
     public function OceanieSpe(){
         return view ('OceanieSpe');
     }

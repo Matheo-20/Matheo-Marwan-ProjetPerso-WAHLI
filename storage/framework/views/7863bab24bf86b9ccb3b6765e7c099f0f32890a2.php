@@ -144,7 +144,7 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Margarita.jpeg" alt="Pizza Margherita">
-                <h3><a href="/plat/pizza-margherita">Pizza Margherita</a></h3>
+                <h3><a href="Pizza">Pizza Margherita</a></h3>
                 <p>Un classique mondial à base de pâte fine, de tomate, de mozzarella et de basilic, incarnant les couleurs du drapeau italien.</p>
             </div>
             <!-- Speciality 2 -->

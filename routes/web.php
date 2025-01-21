@@ -50,6 +50,9 @@ Route::get('/client/PapouasieNouvelleGuinée','App\Http\Controllers\ClientContro
 Route::get('/client/NouvelleZelande','App\Http\Controllers\ClientController@NouvelleZelande');
 
 
+Route::get('/client/Pizza','App\Http\Controllers\ClientController@Pizza');
+
+
 
 
 

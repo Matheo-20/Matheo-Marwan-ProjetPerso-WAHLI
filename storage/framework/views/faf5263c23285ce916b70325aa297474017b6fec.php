@@ -30,15 +30,9 @@
         <!-- Buttons for African countries -->
         <div class="country-buttons">
             <button class="country-btn" onclick="window.location.href='Maroc'">Maroc</button>
-            <button class="country-btn" onclick="window.location.href='Egypte'">Egypte</button>
-            <button class="country-btn" onclick="window.location.href='AfriqueDuSud'">Afrique du Sud</button>
-            <button class="country-btn" onclick="window.location.href='Nigeria'">Nigeria</button>
-            <button class="country-btn" onclick="window.location.href='Cameroun'">Cameroun</button>
-            <button class="country-btn" onclick="window.location.href='Kenya'">Kenya</button>
             <button class="country-btn" onclick="window.location.href='CoteDivoire'">Côte d'Ivoire</button>
-            <button class="country-btn" onclick="window.location.href='Tunisie'">Tunisie</button>
             <button class="country-btn" onclick="window.location.href='Senegal'">Sénégal</button>
-            <button class="country-btn" onclick="window.location.href='Ghana'">Ghana</button>
+            <button class="country-btn" onclick="window.location.href='Angola'">Angola</button>
         </div>
     </div>
 

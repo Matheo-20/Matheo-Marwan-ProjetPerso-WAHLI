@@ -1,6 +1,6 @@
 /* Logo en haut à gauche */
 .logo {
-    position: fixed; /* Fixé en haut à gauche */
+    position: absolute; /* Fixé en haut à gauche */
     top: 10px; /* Distance du haut */
     left: 10px; /* Distance de la gauche */
     background: linear-gradient(135deg, #3498db, #1abc9c); /* Fond dégradé */

@@ -30,14 +30,8 @@
         <!-- Buttons for Asian countries -->
         <div class="country-buttons">
             <button class="country-btn" onclick="window.location.href='Chine'">Chine</button>
-            <button class="country-btn" onclick="window.location.href='Inde'">Inde</button>
             <button class="country-btn" onclick="window.location.href='Japon'">Japon</button>
-            <button class="country-btn" onclick="window.location.href='Thaïlande'">Thaïlande</button>
-            <button class="country-btn" onclick="window.location.href='Vietnam'">Vietnam</button>
-            <button class="country-btn" onclick="window.location.href='CoréeDuSud'">Corée du Sud</button>
-            <button class="country-btn" onclick="window.location.href='Indonésie'">Indonésie</button>
-            <button class="country-btn" onclick="window.location.href='Malaisie'">Malaisie</button>
-            <button class="country-btn" onclick="window.location.href='Singapour'">Singapour</button>
+            <button class="country-btn" onclick="window.location.href='Thailande'">Thaïlande</button>
             <button class="country-btn" onclick="window.location.href='Pakistan'">Pakistan</button>
         </div>
     </div>

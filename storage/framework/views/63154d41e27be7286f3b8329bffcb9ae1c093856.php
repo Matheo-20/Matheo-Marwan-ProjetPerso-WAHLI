@@ -6,59 +6,84 @@
     <meta name="description" content="WAHLI - Explorez des spécialités culinaires du monde entier avec des recettes exquises et savoureuses.">
     <link rel="stylesheet" href="<?php echo e(asset('Css/Accueil.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('Css/logo.css')); ?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome pour l'icône -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>WAHLI - Spécialités Culinaires</title>
     <style>
-        /* Style global */
+        /* Global Styles */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
             background-color: #f9f9f9;
             color: #333;
+            overflow-x: hidden;
         }
 
-        /* Logo en haut à gauche */
+        /* Logo */
         .logo {
-            position: fixed; /* Fixé en haut à gauche */
-            top: 10px; /* Distance du haut */
-            left: 10px; /* Distance de la gauche */
-            background-color: #3498db; /* Fond bleu pour le logo */
-            color: #fff; /* Couleur de la lettre en blanc */
-            font-size: 24px; /* Taille de la lettre */
-            font-weight: bold; /* Épaisseur de la lettre */
-            padding: 10px; /* Espacement intérieur autour de la lettre */
-            border-radius: 50%; /* Forme arrondie */
-            text-align: center; /* Centrer le texte */
-            width: 50px; /* Largeur fixe */
-            height: 50px; /* Hauteur fixe */
-            line-height: 50px; /* Aligner verticalement la lettre */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet visuel */
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #3498db;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Assure que le logo est au premier plan */
         }
 
-        /* Header */
+        /* Header Section */
         header {
-            background-color: #3498db; /* Bleu */
+            background-image: url("/Image/terre.png"); /* Utilisation de l'image locale */
+            background-size: cover;
+            background-position: center;
             color: white;
-            padding: 30px;
+            height: 80vh;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
         }
 
         header h1 {
+            font-size: 56px;
             margin: 0;
-            font-size: 48px;
         }
 
         header p {
-            font-size: 18px;
+            font-size: 20px;
             font-style: italic;
+        }
+
+        header .cta-btn {
+            background-color: #3498db;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        header .cta-btn:hover {
+            background-color: #2980b9;
         }
 
         /* Navigation */
         nav {
-            background-color: #5dade2; /* Bleu clair */
+            background-color: #5dade2;
             text-align: center;
             padding: 15px 0;
-            position: relative; /* Pour positionner l'icône dans le coin droit */
+            position: relative;
         }
 
         nav a {
@@ -71,81 +96,82 @@
         }
 
         nav a:hover {
-            background-color: #3498db; /* Bleu */
+            background-color: #3498db;
             border-radius: 5px;
         }
 
-        /* Positionnement de l'icône de buste à droite */
         .user-icon {
-            position: absolute;  /* Permet de positionner l'icône précisément */
-            top: 50%;  /* Position verticale au centre */
-            right: 20px;  /* Position horizontale à 20px du bord droit */
-            font-size: 40px;   /* Taille de l'icône */
-            color: white;  /* Couleur de l'icône */
-            transform: translateY(-50%); /* Ajuste pour que l'icône soit parfaitement centrée */
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            font-size: 40px;
+            color: white;
+            transform: translateY(-50%);
             cursor: pointer;
             transition: color 0.3s ease;
         }
 
         .user-icon:hover {
-            color: #2980b9;   /* Couleur bleue plus foncée au survol */
+            color: #2980b9;
         }
 
-        a {
-            text-decoration: none;  /* Retirer le soulignement du lien */
-        }
-
-        /* Main content */
+        /* Main Content */
         .main-content {
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: -60px 0 60px 0;
+            border-radius: 10px;
         }
 
         .main-content h2 {
             font-size: 36px;
-            color: #3498db; /* Bleu */
+            color: #3498db;
+            margin-bottom: 20px;
         }
 
         .main-content p {
             font-size: 18px;
             color: #666;
             margin-bottom: 40px;
+            line-height: 1.6;
         }
 
-        /* Grid for specialities */
-        .specialities {
+        /* Objectives Section */
+        .specialties {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            margin: 0 auto;
             padding: 0 20px;
         }
 
-        .speciality {
+        .specialty-card {
             background-color: #fff;
             border-radius: 10px;
-            overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out;
+            overflow: hidden;
+            position: relative;
         }
 
-        .speciality:hover {
+        .specialty-card:hover {
             transform: scale(1.05);
         }
 
-        .speciality img {
+        .specialty-card img {
             width: 100%;
             height: auto;
-            border-bottom: 4px solid #3498db; /* Bleu */
+            border-bottom: 4px solid #3498db;
         }
 
-        .speciality h3 {
+        .specialty-card h3 {
             font-size: 24px;
-            color: #3498db; /* Bleu */
+            color: #3498db;
             padding: 20px;
         }
 
-        .speciality p {
+        .specialty-card p {
             font-size: 16px;
             color: #555;
             padding: 0 20px 20px;
@@ -161,7 +187,7 @@
         }
 
         footer a {
-            color: #3498db; /* Bleu */
+            color: #3498db;
             text-decoration: none;
         }
 
@@ -172,61 +198,41 @@
 </head>
 <body>
 
-    <!-- Logo en haut à gauche -->
+    <!-- Logo -->
     <div class="logo">
-  <span>W</span>
+        <span>W</span>
     </div>
 
-
-    <!-- Header -->
+    <!-- Header Section -->
     <header>
         <h1>WAHLI</h1>
         <p>Voyagez à travers les saveurs du monde entier</p>
+        <!-- Bouton "Pays et Spécialités" -->
+        <button class="cta-btn" onclick="window.location.href='ListePlat'">Pays et Spécialités</button>
     </header>
-
     <!-- Navigation -->
     <nav>
         <a href="AccueilClient">Accueil</a>
-        <a href="ListePlat">Pays et spécialités</a>
         <a href="Contact">Contact</a>
-        
-        <!-- Icone buste de connexion en haut à droite -->
         <a href="seConnecterClient" class="user-icon">
             <i class="fa fa-user"></i>
         </a>
     </nav>
 
-    <!-- Main content -->
+    <!-- Main Content -->
     <div class="main-content">
-        <h2>Nos Spécialités Culinaires</h2>
-        <p>Découvrez des plats uniques, préparés avec soin et amour. Chaque recette raconte une histoire et une tradition culinaire.</p>
+        <h2>Nos Objectifs</h2>
+        <p>Découvrez les principales missions et objectifs de notre site, dédiés à la découverte et à la célébration des cuisines du monde entier.</p>
 
-        <!-- Grid for specialities -->
-        <div class="specialities">
-            <!-- Speciality 1 -->
-            <div class="speciality">
-                <img src="specialite1.jpg" alt="Spécialité 1">
-                <h3>Le Couscous Traditionnel</h3>
-                <p>Un plat emblématique d'Afrique du Nord, préparé avec de la semoule fine, des légumes frais et de la viande tendre.</p>
+        <!-- Objectives Grid -->
+        <div class="specialties">
+            <!-- Objectif 1 -->
+            <div class="specialty-card">
+                <img src="objectif1-placeholder.jpg" alt="Objectif">
+                <h3>Faire découvrir la Culture Culinaire Mondiale</h3>
+                <p>Notre premier objectif est de faire découvrir les traditions culinaires de chaque pays, en partageant des recettes authentiques et savoureuses qui reflètent la diversité culturelle du Monde. Tout en vous conseillant des plats à découvrir lors de vos voyages.</p>
             </div>
-            <!-- Speciality 2 -->
-            <div class="speciality">
-                <img src="specialite2.jpg" alt="Spécialité 2">
-                <h3>Sushi Japonais</h3>
-                <p>Une spécialité japonaise à base de poisson frais, de riz vinaigré et d'algues marines, idéale pour les amateurs de fraîcheur.</p>
-            </div>
-            <!-- Speciality 3 -->
-            <div class="speciality">
-                <img src="specialite3.jpg" alt="Spécialité 3">
-                <h3>Paella Espagnole</h3>
-                <p>Un plat savoureux à base de riz, de fruits de mer, de poulet et de légumes, typique de la région de Valence en Espagne.</p>
-            </div>
-            <!-- Speciality 4 -->
-            <div class="speciality">
-                <img src="specialite4.jpg" alt="Spécialité 4">
-                <h3>Pizza Napolitaine</h3>
-                <p>La fameuse pizza italienne, avec une pâte fine, une sauce tomate maison, du fromage mozzarella et des garnitures de saison.</p>
-            </div>
+
         </div>
     </div>
 

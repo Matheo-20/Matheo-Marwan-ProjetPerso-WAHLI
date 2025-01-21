@@ -30,15 +30,8 @@
         <!-- Buttons for Oceanian countries -->
         <div class="country-buttons">
             <button class="country-btn" onclick="window.location.href='Australie'">Australie</button>
-            <button class="country-btn" onclick="window.location.href='Nouvelle-Zélande'">Nouvelle-Zélande</button>
-            <button class="country-btn" onclick="window.location.href='Papouasie-Nouvelle-Guinée'">Papouasie-Nouvelle-Guinée</button>
+            <button class="country-btn" onclick="window.location.href='NouvelleZelande'">Nouvelle-Zélande</button>
             <button class="country-btn" onclick="window.location.href='Fidji'">Fidji</button>
-            <button class="country-btn" onclick="window.location.href='Samoa'">Samoa</button>
-            <button class="country-btn" onclick="window.location.href='Tonga'">Tonga</button>
-            <button class="country-btn" onclick="window.location.href='Vanuatu'">Vanuatu</button>
-            <button class="country-btn" onclick="window.location.href='ÎlesCook'">Îles Cook</button>
-            <button class="country-btn" onclick="window.location.href='Niue'">Niue</button>
-            <button class="country-btn" onclick="window.location.href='Kiribati'">Kiribati</button>
         </div>
     </div>
 

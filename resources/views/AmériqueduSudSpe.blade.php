@@ -29,16 +29,11 @@
 
         <!-- Buttons for South American countries -->
         <div class="country-buttons">
-            <button class="country-btn" onclick="window.location.href='Brésil'">Brésil</button>
+            <button class="country-btn" onclick="window.location.href='Bresil'">Brésil</button>
             <button class="country-btn" onclick="window.location.href='Argentine'">Argentine</button>
             <button class="country-btn" onclick="window.location.href='Colombie'">Colombie</button>
-            <button class="country-btn" onclick="window.location.href='Pérou'">Pérou</button>
             <button class="country-btn" onclick="window.location.href='Chili'">Chili</button>
-            <button class="country-btn" onclick="window.location.href='Équateur'">Équateur</button>
-            <button class="country-btn" onclick="window.location.href='Venezuela'">Venezuela</button>
-            <button class="country-btn" onclick="window.location.href='Bolivie'">Bolivie</button>
-            <button class="country-btn" onclick="window.location.href='Paraguay'">Paraguay</button>
-            <button class="country-btn" onclick="window.location.href='Uruguay'">Uruguay</button>
+          
         </div>
     </div>
 

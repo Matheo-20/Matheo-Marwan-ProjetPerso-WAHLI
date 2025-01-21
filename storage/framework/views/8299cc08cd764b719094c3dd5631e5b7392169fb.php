@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WAHLI - Découvrez des recettes authentiques et savoureuses.">
     <title>Les pays d'Amérique du Nord - WAHLI</title>
-    
     <link rel="stylesheet" href="<?php echo e(asset('Css/app.css')); ?>">
 </head>
 <body>
@@ -33,12 +32,6 @@
             <button class="country-btn" onclick="window.location.href='EtatsUnis'">États-Unis</button>
             <button class="country-btn" onclick="window.location.href='Mexique'">Mexique</button>
             <button class="country-btn" onclick="window.location.href='Cuba'">Cuba</button>
-            <button class="country-btn" onclick="window.location.href='RepubliqueDominicaine'">République Dominicaine</button>
-            <button class="country-btn" onclick="window.location.href='Guatemala'">Guatemala</button>
-            <button class="country-btn" onclick="window.location.href='Panama'">Panama</button>
-            <button class="country-btn" onclick="window.location.href='CostaRica'">Costa Rica</button>
-            <button class="country-btn" onclick="window.location.href='Honduras'">Honduras</button>
-            <button class="country-btn" onclick="window.location.href='ElSalvador'">El Salvador</button>
         </div>
     </div>
 

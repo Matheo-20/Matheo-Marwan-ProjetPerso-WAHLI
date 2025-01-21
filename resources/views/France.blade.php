@@ -127,14 +127,12 @@
     <header>
         <h1>Les 5 Meilleures Spécialités Françaises</h1>
         <p>Découvrez le meilleur de la gastronomie française</p>
-        
     </header>
 
     <nav>
         <a href="AccueilClient">Accueil</a>
         <a href="Contact">Contact</a>
     </nav>
-
 
     <!-- Main content -->
     <div class="main-content">
@@ -145,15 +143,15 @@
         <div class="specialities">
             <!-- Speciality 1 -->
             <div class="speciality">
-                <img src="ratatouille.jpg" alt="Ratatouille">
-                <h3><a href="/plat/ratatouille">Ratatouille</a></h3>
-                <p>Un mélange coloré de légumes mijotés, typique de la région provençale, qui met en valeur les saveurs méditerranéennes.</p>
+                <img src="/Image/Aligot.jpeg" alt="Aligot">
+                <h3><a href="/plat/aligot">Aligot</a></h3>
+                <p>Une purée onctueuse de pommes de terre mélangée à de la tomme fraîche, une spécialité réconfortante de l'Aubrac.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
-                <img src="cassoulet.jpg" alt="Cassoulet">
-                <h3><a href="/plat/cassoulet">Cassoulet</a></h3>
-                <p>Un plat généreux du sud-ouest de la France, composé de haricots blancs, de viande de porc et de canard.</p>
+                <img src="/Image/Gratin.jpeg" alt="Gratin Dauphinois">
+                <h3><a href="/plat/gratin-dauphinois">Gratin Dauphinois</a></h3>
+                <p>Un plat savoureux composé de pommes de terre, de crème et de lait, délicatement gratiné au four.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
@@ -163,13 +161,13 @@
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
-                <img src="bouillabaisse.jpg" alt="Bouillabaisse">
-                <h3><a href="/plat/bouillabaisse">Bouillabaisse</a></h3>
-                <p>Une soupe de poisson savoureuse et parfumée, un classique de la région marseillaise.</p>
+                <img src="/Image/Bourguignon.jpeg" alt="Bœuf Bourguignon">
+                <h3><a href="/plat/boeuf-bourguignon">Bœuf Bourguignon</a></h3>
+                <p>Un ragoût de bœuf braisé au vin rouge avec des légumes, une spécialité de Bourgogne.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
-                <img src="tartiflette.jpg" alt="Tartiflette">
+                <img src="/Image/Tartiflette.jpeg" alt="Tartiflette">
                 <h3><a href="/plat/tartiflette">Tartiflette</a></h3>
                 <p>Un plat réconfortant à base de pommes de terre, de lardons, d'oignons et de fromage reblochon, typique des Alpes.</p>
             </div>

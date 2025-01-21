@@ -144,31 +144,31 @@
         <div class="specialities">
             <!-- Speciality 1 -->
             <div class="speciality">
-                <img src="paella.jpg" alt="Paella">
+                <img src="/Image/Paella.jpeg" alt="Paella">
                 <h3><a href="/plat/paella">Paella</a></h3>
                 <p>Un plat emblématique à base de riz, de fruits de mer, de poulet et d'épices safranées, typique de Valence.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
-                <img src="tapas.jpg" alt="Tapas">
+                <img src="/Image/Tapas.jpeg" alt="Tapas">
                 <h3><a href="/plat/tapas">Tapas</a></h3>
                 <p>Une variété de petits plats savoureux, parfaits pour partager et découvrir les saveurs espagnoles.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
-                <img src="gazpacho.jpg" alt="Gazpacho">
+                <img src="/Image/Gaspacho.jpeg" alt="Gazpacho">
                 <h3><a href="/plat/gazpacho">Gazpacho</a></h3>
                 <p>Une soupe froide rafraîchissante à base de tomates, concombres, poivrons et huile d'olive, idéale pour l'été.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
-                <img src="tortilla.jpg" alt="Tortilla">
+                <img src="/Image/Tortilla.jpeg" alt="Tortilla">
                 <h3><a href="/plat/tortilla">Tortilla</a></h3>
                 <p>Une omelette épaisse garnie de pommes de terre et d'oignons, simple mais délicieuse.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
-                <img src="churros.jpg" alt="Churros">
+                <img src="/Image/Churros.jpeg" alt="Churros">
                 <h3><a href="/plat/churros">Churros</a></h3>
                 <p>Des pâtisseries croustillantes et dorées, souvent accompagnées d'une tasse de chocolat chaud.</p>
             </div>

@@ -31,13 +31,6 @@
             <button class="country-btn" onclick="window.location.href='France'">France</button>
             <button class="country-btn" onclick="window.location.href='Italie'">Italie</button>
             <button class="country-btn" onclick="window.location.href='Espagne'">Espagne</button>
-            <button class="country-btn" onclick="window.location.href='Allemagne'">Allemagne</button>
-            <button class="country-btn" onclick="window.location.href='RoyaumeUni'">Royaume-Uni</button>
-            <button class="country-btn" onclick="window.location.href='Belgique'">Belgique</button>
-            <button class="country-btn" onclick="window.location.href='PaysBas'">Pays-Bas</button>
-            <button class="country-btn" onclick="window.location.href='Suisse'">Suisse</button>
-            <button class="country-btn" onclick="window.location.href='Grèce'">Grèce</button>
-            <button class="country-btn" onclick="window.location.href='Suede'">Suède</button>
             <button class="country-btn" onclick="window.location.href='Portugal'">Portugal</button>
         </div>
     </div>

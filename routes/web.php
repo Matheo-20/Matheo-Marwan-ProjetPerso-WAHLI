@@ -23,11 +23,61 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 
 Route::get('/client/AsieSpe','App\Http\Controllers\ClientController@AsieSpe');
 
+Route::get('/client/Canada','App\Http\Controllers\ClientController@Canada');
+
+Route::get('/client/EtatsUnis','App\Http\Controllers\ClientController@EtatsUnis');
+
+Route::get('/client/Cuba','App\Http\Controllers\ClientController@Cuba');
+
 Route::get('/client/AfriqueSpe','App\Http\Controllers\ClientController@AfriqueSpe');
 
 Route::get('/client/AmériqueduNordSpe','App\Http\Controllers\ClientController@AmériqueduNordSpe');
 
 Route::get('/client/AmériqueduSudSpe','App\Http\Controllers\ClientController@AmériqueduSudSpe');
+
+Route::get('/client/Mexique','App\Http\Controllers\ClientController@Mexique');
+
+Route::get('/client/Colombie','App\Http\Controllers\ClientController@Colombie');
+
+Route::get('/client/Argentine','App\Http\Controllers\ClientController@Argentine');
+
+Route::get('/client/Australie','App\Http\Controllers\ClientController@Australie');
+
+Route::get('/client/Fidji','App\Http\Controllers\ClientController@Fidji');
+
+Route::get('/client/PapouasieNouvelleGuinée','App\Http\Controllers\ClientController@PapouasieNouvelleGuinée');
+
+Route::get('/client/NouvelleZelande','App\Http\Controllers\ClientController@NouvelleZelande');
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/client/Chine','App\Http\Controllers\ClientController@Chine');
+
+Route::get('/client/Japon','App\Http\Controllers\ClientController@Japon');
+
+Route::get('/client/Pakistan','App\Http\Controllers\ClientController@Pakistan');
+
+Route::get('/client/Thailande','App\Http\Controllers\ClientController@Thailande');
+
+Route::get('/client/Bresil','App\Http\Controllers\ClientController@Bresil');
+
+Route::get('/client/Chili','App\Http\Controllers\ClientController@Chili');
+
+Route::get('/client/Angola','App\Http\Controllers\ClientController@Angola');
+
+Route::get('/client/Senegal','App\Http\Controllers\ClientController@Senegal');
+
+Route::get('/client/Maroc','App\Http\Controllers\ClientController@Maroc');
+
+Route::get('/client/CoteDivoire','App\Http\Controllers\ClientController@CoteDivoire');
 
 Route::get('/client/OceanieSpe','App\Http\Controllers\ClientController@OceanieSpe');
 
@@ -44,6 +94,8 @@ Route::get('/client/Espagne','App\Http\Controllers\ClientController@Espagne');
 Route::get('/client/Italie','App\Http\Controllers\ClientController@Italie');
 
 Route::get('/client/Quiche','App\Http\Controllers\ClientController@Quiche');
+
+Route::get('/client/Portugal','App\Http\Controllers\ClientController@Portugal');
 
 Route::get('/client/ListePlat','App\Http\Controllers\ClientController@ListePlat'); 
 

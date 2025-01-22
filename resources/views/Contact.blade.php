@@ -2,9 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ asset('Css/logo.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contactez-nous pour toute demande d'information ou de support.">
-    <link rel="stylesheet" href="{{ asset('Css/contact.css') }}">
     <title>Contactez-nous - WAHLI</title>
     <style>
         /* Style global */
@@ -13,52 +13,69 @@
             margin: 0;
             background-color: #f9f9f9;
             color: #333;
+            line-height: 1.6;
         }
 
+        /* Logo */
+        .logo {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #3498db;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Assure que le logo est au premier plan */
+        }
         header {
             background-color: #3498db; /* Bleu */
             color: white;
-            padding: 30px;
             text-align: center;
+            padding: 20px;
         }
 
         header h1 {
             margin: 0;
-            font-size: 48px;
+            font-size: 2.5rem;
         }
 
         header p {
-            font-size: 18px;
-            font-style: italic;
+            font-size: 1rem;
+            margin: 5px 0 0;
         }
 
-        /* Navigation */
         nav {
             background-color: #5dade2; /* Bleu clair */
             text-align: center;
-            padding: 15px 0;
+            padding: 10px 0;
         }
 
         nav a {
             color: white;
             text-decoration: none;
             font-weight: bold;
-            padding: 15px 25px;
-            margin: 0 20px;
-            display: inline-block;
+            margin: 0 15px;
+            transition: background-color 0.3s;
+            padding: 8px 15px;
         }
 
         nav a:hover {
-            background-color: #3498db; /* Bleu */
+            background-color: #3498db;
             border-radius: 5px;
         }
 
-        /* Section contact */
         .contact-section {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
+            max-width: 800px;
+            margin: 30px auto;
             background-color: white;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
@@ -66,78 +83,60 @@
         .contact-section h2 {
             text-align: center;
             color: #3498db;
-            font-size: 36px;
+            font-size: 2rem;
             margin-bottom: 20px;
         }
 
         .contact-form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+            display: grid;
+            gap: 15px;
         }
 
         .contact-form label {
-            font-size: 18px;
+            font-size: 1rem;
             color: #333;
         }
 
         .contact-form input, .contact-form textarea {
-            padding: 15px;
-            font-size: 16px;
+            padding: 10px;
+            font-size: 1rem;
             border: 1px solid #ccc;
             border-radius: 5px;
             outline: none;
-            width: 100%;
-            box-sizing: border-box;
+            transition: border-color 0.3s;
         }
 
         .contact-form input:focus, .contact-form textarea:focus {
             border-color: #3498db;
         }
 
+        .contact-form textarea {
+            min-height: 100px; /* Réduit la hauteur */
+            width: 100%; /* Prend toute la largeur */
+            resize: none; /* Supprime la redimension verticale */
+        }
+
         .contact-form button {
             background-color: #3498db;
             color: white;
-            font-size: 18px;
-            padding: 15px;
+            font-size: 1rem;
+            padding: 10px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s;
         }
 
         .contact-form button:hover {
             background-color: #2980b9;
         }
 
-        .contact-info {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 40px;
-        }
-
-        .contact-info div {
-            flex: 1;
-            padding: 10px;
-        }
-
-        .contact-info h3 {
-            color: #3498db;
-            font-size: 24px;
-        }
-
-        .contact-info p {
-            font-size: 16px;
-            color: #666;
-        }
-
-        /* Footer */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 15px 0;
-            font-size: 16px;
+            padding: 10px;
+            font-size: 0.9rem;
         }
 
         footer a {
@@ -147,18 +146,6 @@
 
         footer a:hover {
             text-decoration: underline;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .contact-info {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .contact-info div {
-                margin-bottom: 20px;
-            }
         }
     </style>
 </head>
@@ -170,19 +157,21 @@
         <p>Voyagez à travers les saveurs du monde entier</p>
     </header>
 
+    <!-- Logo -->
+    <div class="logo">
+        <span>W</span>
+    </div>
+
     <!-- Navigation -->
     <nav>
         <a href="AccueilClient">Accueil</a>
-        <a href="ListePlat">Nos Spécialités</a>
-        <a href="#">Contact</a>
+        <a href="Contact">Contact</a>
     </nav>
 
     <!-- Section Contact -->
     <div class="contact-section">
         <h2>Contactez-nous</h2>
-
-        <!-- Formulaire de contact -->
-        <form action="" method="POST" class="contact-form">
+        <form class="contact-form" action="{{ route('contact.create')}}" method="POST">
             @csrf
             <div>
                 <label for="name">Nom :</label>
@@ -194,26 +183,10 @@
             </div>
             <div>
                 <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="6" required placeholder="Votre message"></textarea>
+                <textarea id="message" name="message" required placeholder="Votre message"></textarea>
             </div>
             <button type="submit">Envoyer</button>
         </form>
-
-        <!-- Informations de contact -->
-        <div class="contact-info">
-            <div>
-                <h3>Adresse</h3>
-                <p>12 Rue des Wahman, Montreuil, France</p>
-            </div>
-            <div>
-                <h3>Téléphone</h3>
-                <p>+33 6 10 10 64 29</p>
-            </div>
-            <div>
-                <h3>Email</h3>
-                <p>contact@wahli.com</p>
-            </div>
-        </div>
     </div>
 
     <!-- Footer -->

@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\AdminController' => $baseDir . '/app/Http/Controllers/AdminController.php',
+    'App\\Http\\Controllers\\ClientController' => $baseDir . '/app/Http/Controllers/ClientController.php',
+    'App\\Http\\Controllers\\ContactsController' => $baseDir . '/app/Http/Controllers/ContactsController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
@@ -19,6 +22,8 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Models\\Client' => $baseDir . '/app/Models/Client.php',
+    'App\\Models\\Contact' => $baseDir . '/app/Models/Contact.php',
+    'App\\Models\\Contacts' => $baseDir . '/app/Models/Contacts.php',
     'App\\Models\\Evaluer' => $baseDir . '/app/Models/Evaluer.php',
     'App\\Models\\Plat' => $baseDir . '/app/Models/Plat.php',
     'App\\Models\\Restaurant' => $baseDir . '/app/Models/Restaurant.php',

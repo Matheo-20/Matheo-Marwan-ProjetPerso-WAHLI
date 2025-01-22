@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,10 @@ Route::get('/', function () {
 
 Route::get('/client/AccueilClient','App\Http\Controllers\ClientController@AccueilClient');
 
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::get('/client/Contacts', [ContactsController::class, 'create'])->name('contact.create');
+Route::post('/client/Contacts', [ContactsController::class, 'store'])->name('contact.store');
+
+
 
 Route::get('/client/AsieSpe','App\Http\Controllers\ClientController@AsieSpe');
 

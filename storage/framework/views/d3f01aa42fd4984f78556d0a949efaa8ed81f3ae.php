@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Aligot.jpeg" alt="Aligot">
-                <h3><a href="/plat/aligot">Aligot</a></h3>
+                <h3><a href="/client/Aligot">Aligot</a></h3>
                 <p>Une purée onctueuse de pommes de terre mélangée à de la tomme fraîche, une spécialité réconfortante de l'Aubrac.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Gratin.jpeg" alt="Gratin Dauphinois">
-                <h3><a href="/plat/gratin-dauphinois">Gratin Dauphinois</a></h3>
+                <h3><a href="/client/Gratin">Gratin Dauphinois</a></h3>
                 <p>Un plat savoureux composé de pommes de terre, de crème et de lait, délicatement gratiné au four.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Quiche.jpeg" alt="Quiche Lorraine">
-                <h3><a href="Quiche">Quiche Lorraine</a></h3>
+                <h3><a href="/client/Quiche">Quiche Lorraine</a></h3>
                 <p>Une tarte salée garnie de crème, d'œufs, de lardons et de fromage, originaire de la région de Lorraine.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Bourguignon.jpeg" alt="Bœuf Bourguignon">
-                <h3><a href="/plat/boeuf-bourguignon">Bœuf Bourguignon</a></h3>
+                <h3><a href="/client/Boeuf">Bœuf Bourguignon</a></h3>
                 <p>Un ragoût de bœuf braisé au vin rouge avec des légumes, une spécialité de Bourgogne.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Tartiflette.jpeg" alt="Tartiflette">
-                <h3><a href="/plat/tartiflette">Tartiflette</a></h3>
+                <h3><a href="/client/Tartiflette">Tartiflette</a></h3>
                 <p>Un plat réconfortant à base de pommes de terre, de lardons, d'oignons et de fromage reblochon, typique des Alpes.</p>
             </div>
         </div>

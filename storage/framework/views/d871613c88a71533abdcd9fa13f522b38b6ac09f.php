@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Burger.jpeg" alt="Burger">
-                <h3><a href="/plat/burger">Burger</a></h3>
+                <h3><a href="/client/Burger">Burger</a></h3>
                 <p>Le classique sandwich américain avec un steak juteux, des légumes frais et une sauce savoureuse.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Ribs.jpeg" alt="Barbecue Ribs">
-                <h3><a href="/plat/bbq-ribs">Barbecue Ribs</a></h3>
+                <h3><a href="/client/Barbecue">Barbecue Ribs</a></h3>
                 <p>Des côtes de porc tendres, marinées et grillées avec une sauce barbecue maison.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Macand.jpeg" alt="Mac and Cheese">
-                <h3><a href="/plat/mac-and-cheese">Mac and Cheese</a></h3>
+                <h3><a href="/client/Mac">Mac and Cheese</a></h3>
                 <p>Un gratin de pâtes au fromage crémeux, un vrai régal pour les amateurs de fromage.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Applepie.jpeg" alt="Apple Pie">
-                <h3><a href="/plat/apple-pie">Apple Pie</a></h3>
+                <h3><a href="/client/Apple">Apple Pie</a></h3>
                 <p>La célèbre tarte aux pommes américaine, servie chaude avec une boule de glace.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Clam.jpeg" alt="Clam Chowder">
-                <h3><a href="/plat/clam-chowder">Clam Chowder</a></h3>
+                <h3><a href="/client/Clam">Clam Chowder</a></h3>
                 <p>Une soupe crémeuse à base de palourdes, de pommes de terre et d'oignons, typique de la Nouvelle-Angleterre.</p>
             </div>
         </div>

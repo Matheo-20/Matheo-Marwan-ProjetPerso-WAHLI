@@ -56,6 +56,116 @@ Route::get('/client/NouvelleZelande','App\Http\Controllers\ClientController@Nouv
 
 Route::get('/client/Pizza','App\Http\Controllers\ClientController@Pizza');
 
+Route::get('/client/Pates','App\Http\Controllers\ClientController@Pates');
+
+Route::get('/client/Risotto','App\Http\Controllers\ClientController@Risotto');
+
+Route::get('/client/Lasagnes','App\Http\Controllers\ClientController@Lasagnes');
+
+Route::get('/client/Tiramisu','App\Http\Controllers\ClientController@Tiramisu');
+
+Route::get('/client/Quiche','App\Http\Controllers\ClientController@Quiche');
+
+Route::get('/client/Aligot','App\Http\Controllers\ClientController@Aligot');
+
+Route::get('/client/Boeuf','App\Http\Controllers\ClientController@Boeuf');
+
+Route::get('/client/Gratin','App\Http\Controllers\ClientController@Gratin');
+
+Route::get('/client/Tartiflette','App\Http\Controllers\ClientController@Tartiflette');
+
+Route::get('/client/Tapas','App\Http\Controllers\ClientController@Tapas');
+
+Route::get('/client/Gazpa','App\Http\Controllers\ClientController@Gazpa');
+
+Route::get('/client/Tortilla','App\Http\Controllers\ClientController@Tortilla');
+
+Route::get('/client/Churros','App\Http\Controllers\ClientController@Churros');
+
+Route::get('/client/Paella','App\Http\Controllers\ClientController@Paella');
+
+Route::get('/client/Carne','App\Http\Controllers\ClientController@Carne');
+
+Route::get('/client/Sardine','App\Http\Controllers\ClientController@Sardine');
+
+Route::get('/client/Pastel','App\Http\Controllers\ClientController@Pastel');
+
+Route::get('/client/Francesinha','App\Http\Controllers\ClientController@Francesinha');
+
+Route::get('/client/Bacalhau','App\Http\Controllers\ClientController@Bacalhau');
+
+Route::get('/client/Poutine','App\Http\Controllers\ClientController@Poutine');
+
+Route::get('/client/Sirop','App\Http\Controllers\ClientController@Sirop');
+
+Route::get('/client/Homard','App\Http\Controllers\ClientController@Homard');
+
+Route::get('/client/Tourtiere','App\Http\Controllers\ClientController@Tourtiere');
+
+Route::get('/client/Beaver','App\Http\Controllers\ClientController@Beaver');
+
+
+
+Route::get('/client/Burger','App\Http\Controllers\ClientController@Burger');
+
+Route::get('/client/Mac','App\Http\Controllers\ClientController@Mac');
+
+Route::get('/client/Apple','App\Http\Controllers\ClientController@Apple');
+
+Route::get('/client/Barbecue','App\Http\Controllers\ClientController@Barbecue');
+
+Route::get('/client/Clam','App\Http\Controllers\ClientController@Clam');
+
+
+
+Route::get('/client/Tacos','App\Http\Controllers\ClientController@Tacos');
+
+Route::get('/client/Guacamole','App\Http\Controllers\ClientController@Guacamole');
+
+Route::get('/client/Enchiladas','App\Http\Controllers\ClientController@Enchiladas');
+
+Route::get('/client/Pozole','App\Http\Controllers\ClientController@Pozole');
+
+Route::get('/client/Barbacoa','App\Http\Controllers\ClientController@Barbacoa');
+
+Route::get('/client/Acaraje', 'App\Http\Controllers\ClientController@Acaraje');
+
+Route::get('/client/Pao', 'App\Http\Controllers\ClientController@Pao');
+
+Route::get('/client/Moqueca', 'App\Http\Controllers\ClientController@Moqueca');
+
+Route::get('/client/Churrasco', 'App\Http\Controllers\ClientController@Churrasco');
+
+Route::get('/client/Brigadeiro', 'App\Http\Controllers\ClientController@Brigadeiro');
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/client/Ropa','App\Http\Controllers\ClientController@Ropa');
+
+Route::get('/client/Lechon','App\Http\Controllers\ClientController@Lechon');
+
+Route::get('/client/Arroz','App\Http\Controllers\ClientController@Arroz');
+
+Route::get('/client/Tostones','App\Http\Controllers\ClientController@Tostones');
+
+
+Route::get('/client/Flan','App\Http\Controllers\ClientController@Flan');
+
+
+
+
+
+
 
 
 

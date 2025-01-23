@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Ropa.jpeg" alt="Ropa Vieja">
-                <h3><a href="/plat/ropa-vieja">Ropa Vieja</a></h3>
+                <h3><a href="/client/Ropa">Ropa Vieja</a></h3>
                 <p>Un ragoût de bœuf effiloché cuit lentement avec des légumes et des épices, servi avec du riz.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Lechon.jpeg" alt="Lechón Asado">
-                <h3><a href="/plat/lechon-asado">Lechón Asado</a></h3>
+                <h3><a href="/client/Lechon">Lechón Asado</a></h3>
                 <p>Du porc rôti lentement, souvent servi lors des fêtes et célébrations cubaines.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Arroz.jpeg" alt="Arroz Congrí">
-                <h3><a href="/plat/arroz-congri">Arroz Congrí</a></h3>
+                <h3><a href="/client/Arroz">Arroz Congrí</a></h3>
                 <p>Un mélange délicieux de riz et de haricots noirs, un accompagnement classique.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Tostones.jpeg" alt="Tostones">
-                <h3><a href="/plat/tostones">Tostones</a></h3>
+                <h3><a href="/client/Tostones">Tostones</a></h3>
                 <p>Des bananes plantains frites deux fois, croustillantes et dorées.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Flan.jpeg" alt="Flan Cubain">
-                <h3><a href="/plat/flan">Flan Cubain</a></h3>
+                <h3><a href="/client/Flan">Flan Cubain</a></h3>
                 <p>Un dessert crémeux à base d'œufs et de caramel, une touche sucrée parfaite pour terminer un repas.</p>
             </div>
         </div>

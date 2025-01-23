@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Tacos.jpeg" alt="Tacos">
-                <h3><a href="/plat/tacos">Tacos</a></h3>
+                <h3><a href="/client/Tacos">Tacos</a></h3>
                 <p>Des tortillas garnies de viande, de légumes, de salsa et d'une touche de citron vert.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Enchiladas.jpeg" alt="Enchiladas">
-                <h3><a href="/plat/enchiladas">Enchiladas</a></h3>
+                <h3><a href="/client/Enchiladas">Enchiladas</a></h3>
                 <p>Des tortillas farcies et enroulées, nappées de sauce épicée et gratinées au fromage.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Guacamole.jpeg" alt="Guacamole">
-                <h3><a href="/plat/guacamole">Guacamole</a></h3>
+                <h3><a href="/client/Guacamole">Guacamole</a></h3>
                 <p>Un mélange d'avocats frais, de tomates, d'oignons, de coriandre et de jus de citron vert.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Pozole.jpeg" alt="Pozole">
-                <h3><a href="/plat/pozole">Pozole</a></h3>
+                <h3><a href="/client/Pozole">Pozole</a></h3>
                 <p>Une soupe traditionnelle à base de maïs nixtamalisé, de viande et d'épices.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Barbacoa.jpeg" alt="Barbacoa">
-                <h3><a href="/plat/barbacoa">Barbacoa</a></h3>
+                <h3><a href="/client/Barbacoa">Barbacoa</a></h3>
                 <p>Un plat de viande lentement cuite à la vapeur ou enfouie dans le sol, avec des épices mexicaines traditionnelles.</p>
             </div>
         </div>

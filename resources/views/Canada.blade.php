@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Poutine.jpeg" alt="Poutine">
-                <h3><a href="/plat/poutine">Poutine</a></h3>
+                <h3><a href="/client/Poutine">Poutine</a></h3>
                 <p>Un plat emblématique composé de frites, de fromage en grains et de sauce brune.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Tourtiere.jpeg" alt="Tourtière">
-                <h3><a href="/plat/tourtiere">Tourtière</a></h3>
+                <h3><a href="/client/Tourtiere">Tourtière</a></h3>
                 <p>Une tarte salée traditionnelle remplie de viande assaisonnée, populaire au Québec.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Sirop.jpeg" alt="Sirop d'Érable">
-                <h3><a href="/plat/sirop-erable">Sirop d'Érable</a></h3>
+                <h3><a href="/client/Sirop">Sirop d'Érable</a></h3>
                 <p>Un délice sucré extrait des érables canadiens, parfait pour les pancakes et bien plus.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Homard.jpeg" alt="Homard de l'Atlantique">
-                <h3><a href="/plat/homard">Homard de l'Atlantique</a></h3>
+                <h3><a href="/client/Homard">Homard de l'Atlantique</a></h3>
                 <p>Un mets délicat provenant des côtes de l'est du Canada, souvent servi avec du beurre fondu.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Beaver.jpeg" alt="BeaverTails">
-                <h3><a href="/plat/beavertails">BeaverTails</a></h3>
+                <h3><a href="/client/Beaver">BeaverTails</a></h3>
                 <p>Une pâtisserie frite en forme de queue de castor, garnie de diverses saveurs sucrées.</p>
             </div>
         </div>

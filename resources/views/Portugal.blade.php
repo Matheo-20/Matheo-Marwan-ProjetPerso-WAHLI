@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Bacalhau.jpeg" alt="Bacalhau à Brás">
-                <h3><a href="/plat/bacalhau-a-bras">Bacalhau à Brás</a></h3>
+                <h3><a href="/client/Bacalhau">Bacalhau à Brás</a></h3>
                 <p>Un plat savoureux à base de morue effilochée, de pommes de terre sautées, d'œufs et d'olives.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Pastel.jpeg" alt="Pastel de Nata">
-                <h3><a href="/plat/pastel-de-nata">Pastel de Nata</a></h3>
+                <h3><a href="/client/Pastel">Pastel de Nata</a></h3>
                 <p>De délicieux flans pâtissiers dans une croûte feuilletée, saupoudrés de cannelle ou de sucre glace.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Francesinha.jpeg" alt="La Francesinha">
-                <h3><a href="/plat/francesinha">La Francesinha</a></h3>
+                <h3><a href="/client/Francesinha">La Francesinha</a></h3>
                 <p>Un sandwich portugais emblématique garni de viande, recouvert de fromage fondu et nappé de sauce épicée.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Sardine.jpeg" alt="Sardines Grillées">
-                <h3><a href="/plat/sardines-grillees">Sardines Grillées</a></h3>
+                <h3><a href="/client/Sardine">Sardines Grillées</a></h3>
                 <p>Des sardines fraîches grillées, servies avec des pommes de terre et une salade.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Carne.jpeg" alt="La Carne de Porco à Alentejana">
-                <h3><a href="/plat/carne-porco-alentejana">La Carne de Porco à Alentejana</a></h3>
+                <h3><a href="/client/Carne">La Carne de Porco à Alentejana</a></h3>
                 <p>Un plat savoureux à base de porc, de palourdes, de pommes de terre et d'épices.</p>
             </div>
         </div>

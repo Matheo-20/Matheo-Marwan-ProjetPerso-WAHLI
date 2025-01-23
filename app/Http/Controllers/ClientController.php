@@ -18,6 +18,47 @@ class ClientController extends Controller {
         return view ('Pizza');
     }
 
+    public function Boeuf(){
+        return view ('Boeuf');
+    }
+
+    public function Quiche(){
+        return view ('Quiche');
+    }
+
+    public function Tartiflette(){
+        return view ('Tartiflette');
+    }
+
+    public function Aligot(){
+        return view ('Aligot');
+    }
+
+    public function Gratin(){
+        return view ('Gratin');
+    }
+
+
+
+
+
+
+    public function Pates(){
+        return view ('Pates');
+    }
+
+    public function Tiramisu(){
+        return view ('Tiramisu');
+    }
+
+    public function Risotto(){
+        return view ('Risotto');
+    }
+
+    public function Lasagnes(){
+        return view('Lasagnes');
+    }
+
 
     public function OceanieSpe(){
         return view ('OceanieSpe');
@@ -35,9 +76,162 @@ class ClientController extends Controller {
         return view ('Italie');
     }
 
-    public function Quiche(){
-        return view ('Quiche');
+    public function Tapas(){
+        return view ('Tapas');
     }
+
+    public function Gazpa(){
+        return view ('Gazpa');
+    }
+
+    public function Carne(){
+        return view ('Carne');
+    }
+
+    public function Bacalhau(){
+        return view ('Bacalhau');
+    }
+
+    public function Sardine(){
+        return view ('Sardine');
+    }
+
+    public function Pastel(){
+        return view ('Pastel');
+    }
+
+    public function Francesinha(){
+        return view ('Francesinha');
+    }
+
+    public function Poutine(){
+        return view ('Poutine');
+    }
+
+    public function Tourtiere(){
+        return view ('Tourtiere');
+    }
+
+    public function Sirop(){
+        return view ('Sirop');
+    }
+
+    public function Homard(){
+        return view ('Homard');
+    }
+
+    public function Beaver(){
+        return view ('Beaver');
+    }
+
+    public function Burger(){
+        return view ('Burger');
+    }
+
+    public function Barbecue(){
+        return view ('Barbecue');
+    }
+
+    public function Mac(){
+        return view ('Mac');
+    }
+
+    public function Apple(){
+        return view ('Apple');
+    }
+
+    public function Clam(){
+        return view ('Clam');
+    }
+
+    public function Tacos(){
+        return view ('Tacos');
+    }
+
+    public function Pozole(){
+        return view ('Pozole');
+    }
+
+    public function Enchiladas(){
+        return view ('Enchiladas');
+    }
+
+    public function Barbacoa(){
+        return view ('Barbacoa');
+    }
+
+    public function Acaraje(){
+        return view ('Acaraje');
+    }
+
+    public function Pao(){
+        return view ('Pao');
+    }
+
+    public function Moqueca(){
+        return view ('Moqueca');
+    }
+
+    public function Churrasco(){
+        return view ('Churrasco');
+    }
+
+    public function Brigadeiro(){
+        return view ('Brigadeiro');
+    }
+
+
+
+
+
+
+    public function Guacamole(){
+        return view ('Guacamole');
+    }
+
+    public function Ropa(){
+        return view ('Ropa');
+    }
+
+    public function Arroz(){
+        return view ('Arroz');
+    }
+
+    public function Lechon(){
+        return view ('Lechon');
+    }
+
+    public function Flan(){
+        return view ('Flan');
+    }
+
+    public function Tostones(){
+        return view ('Tostones');
+    }
+
+
+
+
+
+
+
+
+
+
+
+    public function Churros(){
+        return view ('Churros');
+    }
+    
+    public function Paella(){
+        return view ('Paella');
+    }
+
+    public function Tortilla(){
+        return view ('Tortilla');
+    }
+
+
 
     public function Bresil(){
         return view ('Bresil');

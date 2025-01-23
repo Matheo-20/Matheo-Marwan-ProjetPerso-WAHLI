@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/acaraje.jpeg" alt="Acarajé">
-                <h3><a href="/plat/acaraje">Acarajé</a></h3>
+                <h3><a href="/client/Acaraje">Acarajé</a></h3>
                 <p>Des boules de pâte de haricots frites, souvent servies avec des crevettes et des légumes, un plat emblématique du Brésil.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Pao.jpeg" alt="Pão de Queijo">
-                <h3><a href="/plat/pao-de-queijo">Pão de Queijo</a></h3>
+                <h3><a href="/client/Pao">Pão de Queijo</a></h3>
                 <p>De petites boules de pain au fromage, délicieusement moelleuses et populaires au Brésil.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Moqueca.jpeg" alt="Moqueca">
-                <h3><a href="/plat/moqueca">Moqueca</a></h3>
+                <h3><a href="/client/Moqueca">Moqueca</a></h3>
                 <p>Un ragoût de poisson cuit avec du lait de coco, des tomates et des épices, typique des côtes brésiliennes.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Churrasco.jpeg" alt="Churrasco">
-                <h3><a href="/plat/churrasco">Churrasco</a></h3>
+                <h3><a href="/client/Churrasco">Churrasco</a></h3>
                 <p>Un barbecue brésilien avec de la viande grillée sur une broche, servi avec des accompagnements.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Brigadeiro.jpeg" alt="Brigadeiro">
-                <h3><a href="/plat/brigadeiro">Brigadeiro</a></h3>
+                <h3><a href="/client/Brigadeiro">Brigadeiro</a></h3>
                 <p>Des bonbons à base de lait concentré, de chocolat et de beurre, un véritable délice sucré brésilien.</p>
             </div>
         </div>

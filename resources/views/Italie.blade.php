@@ -150,25 +150,25 @@
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Carbonara.jpeg" alt="Pâtes Carbonara">
-                <h3><a href="/plat/pates-carbonara">Pâtes Carbonara</a></h3>
+                <h3><a href="/client/Pates">Pâtes Carbonara</a></h3>
                 <p>Des pâtes savoureuses préparées avec des œufs, du pecorino, du guanciale et une touche de poivre noir.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Risotto.jpeg" alt="Risotto">
-                <h3><a href="/plat/risotto">Risotto</a></h3>
+                <h3><a href="/client/Risotto">Risotto</a></h3>
                 <p>Un plat crémeux à base de riz, souvent cuisiné avec des champignons, du safran ou des fruits de mer.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Lasagne.jpeg" alt="Lasagnes">
-                <h3><a href="/plat/lasagnes">Lasagnes</a></h3>
+                <h3><a href="/client/Lasagnes">Lasagnes</a></h3>
                 <p>Des couches de pâtes alternant avec une garniture de sauce tomate, de viande hachée et de béchamel.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Tiramisu.jpeg" alt="Tiramisu">
-                <h3><a href="/plat/tiramisu">Tiramisu</a></h3>
+                <h3><a href="/client/Tiramisu">Tiramisu</a></h3>
                 <p>Un dessert emblématique composé de mascarpone, de café et de biscuits savoiardi saupoudrés de cacao.</p>
             </div>
         </div>

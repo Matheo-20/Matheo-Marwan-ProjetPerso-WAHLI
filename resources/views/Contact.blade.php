@@ -34,6 +34,7 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000; /* Assure que le logo est au premier plan */
         }
+
         header {
             background-color: #3498db; /* Bleu */
             color: white;
@@ -111,9 +112,9 @@
         }
 
         .contact-form textarea {
-            min-height: 100px; /* Réduit la hauteur */
-            width: 100%; /* Prend toute la largeur */
-            resize: none; /* Supprime la redimension verticale */
+            min-height: 100px;
+            width: 100%;
+            resize: none;
         }
 
         .contact-form button {
@@ -131,8 +132,23 @@
             background-color: #2980b9;
         }
 
+        .contact-details {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .contact-details a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
         footer {
-            background-color: #333;
+            background-color: #333; /* Bande noire */
             color: white;
             text-align: center;
             padding: 10px;
@@ -187,6 +203,12 @@
             </div>
             <button type="submit">Envoyer</button>
         </form>
+    </div>
+
+    <!-- Informations supplémentaires -->
+    <div class="contact-details">
+        <p>Email : <a href="mailto:contact@wahli.com">contact@wahli.com</a></p>
+        <p>Téléphone : <a href="tel:+330123456789">+33 6 10 10 64 29</a></p>
     </div>
 
     <!-- Footer -->

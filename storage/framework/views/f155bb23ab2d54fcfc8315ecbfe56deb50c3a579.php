@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Hangi.jpeg" alt="Hangi">
-                <h3><a href="/plat/hangi">Hangi</a></h3>
+                <h3><a href="/client/Hangi">Hangi</a></h3>
                 <p>Un plat traditionnel cuit dans un four souterrain, à base de viande, légumes et herbes, offrant une saveur unique et fumée.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Moules.jpeg" alt="Moules vertes de Nouvelle-Zélande">
-                <h3><a href="/plat/moules-vertes">Moules vertes de Nouvelle-Zélande</a></h3>
+                <h3><a href="/client/Moule">Moules vertes de Nouvelle-Zélande</a></h3>
                 <p>Les célèbres moules vertes, savoureuses et charnues, sont un véritable délice dans de nombreux plats de fruits de mer.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Paua.jpeg" alt="Paua">
-                <h3><a href="/plat/paua">Paua</a></h3>
+                <h3><a href="/client/Paua">Paua</a></h3>
                 <p>Un coquillage néo-zélandais, aussi appelé abalone, très prisé pour sa chair tendre et son goût délicat.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Agneau.jpeg" alt="Agneau de Nouvelle-Zélande">
-                <h3><a href="/plat/agneau-nouvelle-zelande">Agneau de Nouvelle-Zélande</a></h3>
+                <h3><a href="/client/Agneau">Agneau de Nouvelle-Zélande</a></h3>
                 <p>L'agneau néo-zélandais, réputé pour sa tendreté et son goût unique, est souvent servi rôti ou en brochettes.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Chesse.jpeg" alt="Cheese Rolls">
-                <h3><a href="/plat/cheese-rolls">Cheese Rolls</a></h3>
+                <h3><a href="/client/CheeseR">Cheese Rolls</a></h3>
                 <p>Un en-cas populaire en Nouvelle-Zélande : du fromage fondu dans un pain roulé, généralement accompagné de légumes ou de sauces.</p>
             </div>
         </div>

@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Pad.jpeg" alt="Pad Thaï">
-                <h3><a href="/plat/pad-thai">Pad Thaï</a></h3>
+                <h3><a href="/client/Pad">Pad Thaï</a></h3>
                 <p>Un plat de nouilles sautées avec des crevettes, du tofu, des cacahuètes et une sauce aigre-douce.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Tom.jpeg" alt="Tom Yum">
-                <h3><a href="/plat/tom-yum">Tom Yum</a></h3>
+                <h3><a href="/client/Tom">Tom Yum</a></h3>
                 <p>Une soupe épicée et acidulée à base de citronnelle, galanga et crevettes.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/CurryV.jpeg" alt="Curry Vert">
-                <h3><a href="/plat/green-curry">Curry Vert</a></h3>
+                <h3><a href="/client/Curry">Curry Vert</a></h3>
                 <p>Un curry thaïlandais à base de lait de coco, de pâte de curry vert, et de poulet ou légumes.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Mango.jpeg" alt="Mango Sticky Rice">
-                <h3><a href="/plat/mango-sticky-rice">Mango Sticky Rice</a></h3>
+                <h3><a href="/client/Mango">Mango Sticky Rice</a></h3>
                 <p>Un dessert traditionnel à base de riz gluant, lait de coco et mangue fraîche.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Som.jpeg" alt="Som Tam">
-                <h3><a href="/plat/som-tam">Som Tam</a></h3>
+                <h3><a href="/client/Som">Som Tam</a></h3>
                 <p>Une salade de papaye verte avec du piment, du citron vert, et des cacahuètes.</p>
             </div>
         </div>

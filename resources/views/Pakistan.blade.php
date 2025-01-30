@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Biryani.jpeg" alt="Biryani">
-                <h3><a href="/plat/biryani">Biryani</a></h3>
+                <h3><a href="/client/Biryani">Biryani</a></h3>
                 <p>Un plat de riz épicé, généralement préparé avec du poulet ou de l'agneau, et parfumé aux épices exotiques.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Nihari.jpeg" alt="Nihari">
-                <h3><a href="/plat/nihari">Nihari</a></h3>
+                <h3><a href="/client/Nihari">Nihari</a></h3>
                 <p>Un ragoût de viande lentement mijoté, souvent consommé au petit-déjeuner avec du naan.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Seekh.jpeg" alt="Seekh Kebab">
-                <h3><a href="/plat/seekh-kebab">Seekh Kebab</a></h3>
+                <h3><a href="/client/Seekh">Seekh Kebab</a></h3>
                 <p>Des brochettes de viande hachée épicée, grillées à la perfection.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Haleem.jpeg" alt="Haleem">
-                <h3><a href="/plat/haleem">Haleem</a></h3>
+                <h3><a href="/client/Haleem">Haleem</a></h3>
                 <p>Un mélange riche et nourrissant de viande, de lentilles et de blé, mijoté longuement.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Gulab.jpeg" alt="Gulab Jamun">
-                <h3><a href="/plat/gulab-jamun">Gulab Jamun</a></h3>
+                <h3><a href="/client/Gulab">Gulab Jamun</a></h3>
                 <p>Des douceurs sucrées à base de lait, trempées dans un sirop parfumé à la rose.</p>
             </div>
         </div>

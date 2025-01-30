@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants en France pour déguster des churros, un délice sucré de la cuisine espagnole.">
+    <meta name="description" content="Découvrez les meilleurs restaurants espagnols pour savourer des churros authentiques.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants de Churros en France</title>
+    <title>Top 5 Restaurants pour Déguster des Churros en Espagne</title>
     <style>
-        /* Style global */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -120,8 +119,8 @@
 
     <!-- Header -->
     <header>
-        <h1>Les 5 Meilleurs Restaurants de Churros en France</h1>
-        <p>Découvrez les meilleurs endroits pour déguster des churros authentiques, un délice sucré incontournable.</p>
+        <h1>Les Meilleurs Restaurants pour Déguster des Churros en Espagne</h1>
+        <p>Venez savourer ce délice sucré au goût authentique de l'Espagne.</p>
     </header>
 
     <nav>
@@ -131,45 +130,45 @@
 
     <!-- Main content -->
     <div class="main-content">
-        <h2>Les Churros : Une Douceur Traditionnelle Espagnole</h2>
-        <p>Les churros, ces pâtisseries croustillantes et sucrées, sont un véritable délice. Voici nos 5 restaurants préférés pour les savourer :</p>
+        <h2>Les Churros, une Tradition Espagnole</h2>
+        <p>Les churros, croustillants à l'extérieur et fondants à l'intérieur, sont l'un des desserts les plus emblématiques d'Espagne. Découvrez les meilleures adresses pour les déguster :</p>
 
         <!-- Liste des restaurants -->
         <div class="restaurant-list">
             <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/churros-para-ti">Churros Para Ti</a></h3>
-                <p><span>Adresse :</span> 45 Rue du Faubourg Saint-Antoine, 75011 Paris</p>
-                <p><span>Contact :</span> +33 1 43 58 22 44</p>
-                <p>Un lieu où les churros sont faits maison, délicieux et accompagnés de différentes sauces au choix, pour un vrai goût d'Espagne.</p>
+                <h3><a href="/restaurant/chocolateria-san-gines">Chocolatería San Ginés</a></h3>
+                <p><span>Adresse :</span> Pasadizo de San Ginés, 5, 28013 Madrid</p>
+                <p><span>Contact :</span> +34 913 65 65 46</p>
+                <p>Incontournable à Madrid, cette chocolaterie est célèbre pour ses churros accompagnés de chocolat chaud.</p>
             </div>
             <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-fabrica-de-churros">La Fabrica de Churros</a></h3>
-                <p><span>Adresse :</span> 12 Rue de la République, 69001 Lyon</p>
-                <p><span>Contact :</span> +33 4 72 36 74 55</p>
-                <p>Une boutique dédiée aux churros où chaque bouchée est un pur plaisir, accompagnée de chocolat chaud ou de sucre glace.</p>
+                <h3><a href="/restaurant/la-churreria">La Churrería</a></h3>
+                <p><span>Adresse :</span> Carrer del Carme, 28, 08001 Barcelona</p>
+                <p><span>Contact :</span> +34 933 17 55 16</p>
+                <p>Un lieu traditionnel où l'on sert des churros frais, faits maison, dans une ambiance conviviale.</p>
             </div>
             <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/sweet-churros">Sweet Churros</a></h3>
-                <p><span>Adresse :</span> 18 Rue des Martyrs, 75009 Paris</p>
-                <p><span>Contact :</span> +33 1 44 53 33 87</p>
-                <p>Ce restaurant moderne offre une expérience unique avec ses churros sucrés, mais aussi des versions salées pour les plus aventureux.</p>
+                <h3><a href="/restaurant/churreria-la-madrid">Churrería La Madrid</a></h3>
+                <p><span>Adresse :</span> Gran Vía, 45, 28013 Madrid</p>
+                <p><span>Contact :</span> +34 914 59 99 77</p>
+                <p>Churros délicieux et dorés, accompagnés d'un chocolat onctueux à la hauteur des attentes.</p>
             </div>
             <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/les-churros-de-mimi">Les Churros de Mimi</a></h3>
-                <p><span>Adresse :</span> 7 Boulevard de la Liberté, 13001 Marseille</p>
-                <p><span>Contact :</span> +33 4 91 54 68 92</p>
-                <p>Chez Mimi, les churros sont faits maison et servis dans une ambiance chaleureuse, avec un choix de différentes garnitures.</p>
+                <h3><a href="/restaurant/churreria-paco">Churrería Paco</a></h3>
+                <p><span>Adresse :</span> Calle de Santa Engracia, 140, 28003 Madrid</p>
+                <p><span>Contact :</span> +34 915 93 92 42</p>
+                <p>Un établissement familial offrant des churros tendres, à déguster avec un café ou un chocolat.</p>
             </div>
             <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/churros-deluxe">Churros Deluxe</a></h3>
-                <p><span>Adresse :</span> 22 Rue Saint-Denis, 75001 Paris</p>
-                <p><span>Contact :</span> +33 1 55 22 16 98</p>
-                <p>Un restaurant incontournable à Paris pour déguster des churros frais et croustillants, accompagnés de sauces maison à tomber.</p>
+                <h3><a href="/restaurant/chocolateria-la-vienna">Chocolatería La Viena</a></h3>
+                <p><span>Adresse :</span> Calle de Vallehermoso, 69, 28015 Madrid</p>
+                <p><span>Contact :</span> +34 913 46 88 16</p>
+                <p>Ce café historique propose des churros accompagnés de chocolat chaud crémeux, parfait pour une pause gourmande.</p>
             </div>
         </div>
     </div>

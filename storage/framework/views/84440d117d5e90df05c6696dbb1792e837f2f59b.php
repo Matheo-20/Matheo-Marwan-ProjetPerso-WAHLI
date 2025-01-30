@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Meat.jpeg" alt="Meat Pie">
-                <h3><a href="/plat/meat-pie">Meat Pie</a></h3>
+                <h3><a href="/client/Meat">Meat Pie</a></h3>
                 <p>Une pâtisserie fourrée de viande, idéale pour un déjeuner rapide ou un encas. Un véritable classique australien.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Lamington.jpeg" alt="Lamington">
-                <h3><a href="/plat/lamington">Lamington</a></h3>
+                <h3><a href="/client/Lamington">Lamington</a></h3>
                 <p>Un gâteau moelleux, trempé dans du chocolat et enrobé de noix de coco râpée, parfait pour les goûters.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Pavlova.jpeg" alt="Pavlova">
-                <h3><a href="/plat/pavlova">Pavlova</a></h3>
+                <h3><a href="/client/Pavlova">Pavlova</a></h3>
                 <p>Un dessert aérien à base de meringue, garni de fruits frais, célèbre en Australie et en Nouvelle-Zélande.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Barbecued.jpeg" alt="Barbecued Snags">
-                <h3><a href="/plat/barbecued-snags">Barbecued Snags</a></h3>
+                <h3><a href="/client/Barbecued">Barbecued Snags</a></h3>
                 <p>Des saucisses grillées, un véritable favori dans les barbecues australiens, souvent servies avec des oignons et de la moutarde.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Fairy.jpeg" alt="Fairy Bread">
-                <h3><a href="/plat/fairy-bread">Fairy Bread</a></h3>
+                <h3><a href="/client/Fairy">Fairy Bread</a></h3>
                 <p>Un plat simple mais aimé des enfants : du pain beurré saupoudré de paillettes colorées de sucre.</p>
             </div>
         </div>

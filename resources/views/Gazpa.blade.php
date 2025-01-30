@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants en France pour déguster un gazpacho, une soupe froide espagnole pleine de fraîcheur.">
+    <meta name="description" content="Découvrez les 5 meilleurs restaurants en Espagne pour déguster un authentique gazpacho, une soupe froide emblématique de la cuisine espagnole.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants de Gazpacho en France</title>
+    <title>Top 5 Restaurants de Gazpacho en Espagne</title>
     <style>
         /* Style global */
         body {
@@ -117,11 +117,10 @@
     </style>
 </head>
 <body>
-
-    <!-- Header -->
+    
     <header>
-        <h1>Les 5 Meilleurs Restaurants de Gazpacho en France</h1>
-        <p>Découvrez cette soupe froide espagnole pleine de fraîcheur dans les meilleurs restaurants de France.</p>
+        <h1>Les 5 Meilleurs Restaurants de Gazpacho en Espagne</h1>
+        <p>Découvrez les meilleurs endroits en Espagne pour déguster un gazpacho rafraîchissant et authentique.</p>
     </header>
 
     <nav>
@@ -129,52 +128,44 @@
         <a href="Contact">Contact</a>
     </nav>
 
-    <!-- Main content -->
     <div class="main-content">
-        <h2>Le Gazpacho : Une Soupe Fraîche et Savoureuse</h2>
-        <p>Le gazpacho est un classique de la cuisine andalouse, parfait pour l'été. Découvrez notre sélection de restaurants où vous pourrez déguster ce plat délicieux :</p>
+        <h2>Un Gazpacho Frais et Savoureux</h2>
+        <p>Le gazpacho, cette soupe froide andalouse, est un délice rafraîchissant parfait pour les journées chaudes. Voici une sélection des meilleurs restaurants où le savourer :</p>
 
-        <!-- Liste des restaurants -->
         <div class="restaurant-list">
-            <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-tabla-del-gazpacho">La Tabla del Gazpacho</a></h3>
-                <p><span>Adresse :</span> 10 Rue des Oliviers, 13001 Marseille</p>
-                <p><span>Contact :</span> +33 4 91 25 38 19</p>
-                <p>Un restaurant à Marseille offrant un gazpacho andalou authentique, préparé avec des tomates de qualité et une touche d'huile d'olive.</p>
+                <h3><a href="/restaurant/la-azotea">La Azotea</a></h3>
+                <p><span>Adresse :</span> Calle Zaragoza, 5, 41001 Séville</p>
+                <p><span>Contact :</span> +34 954 22 74 35</p>
+                <p>Un restaurant réputé pour son gazpacho andalou onctueux et bien assaisonné.</p>
             </div>
-            <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/els-soups">Els Soups</a></h3>
-                <p><span>Adresse :</span> 18 Rue des Sablons, 75016 Paris</p>
-                <p><span>Contact :</span> +33 1 42 67 50 10</p>
-                <p>Le restaurant Els Soups propose une version moderne du gazpacho, avec une présentation raffinée et une explosion de saveurs fraîches.</p>
+                <h3><a href="/restaurant/la-barra-de-sandoval">La Barra de Sandoval</a></h3>
+                <p><span>Adresse :</span> Paseo de la Castellana, 57, 28046 Madrid</p>
+                <p><span>Contact :</span> +34 917 81 80 00</p>
+                <p>Un établissement moderne servant un gazpacho revisité avec une touche gastronomique.</p>
             </div>
-            <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/casa-andalucia">Casa Andalucia</a></h3>
-                <p><span>Adresse :</span> 7 Rue de la Paix, 69002 Lyon</p>
-                <p><span>Contact :</span> +33 4 72 61 32 55</p>
-                <p>Un véritable voyage en Espagne avec leur gazpacho maison, accompagné de pain grillé à l'ail et d'un soupçon de vinaigre de Xérès.</p>
+                <h3><a href="/restaurant/bar-tomate">Bar Tomate</a></h3>
+                <p><span>Adresse :</span> Calle Fernando el Santo, 26, 28010 Madrid</p>
+                <p><span>Contact :</span> +34 917 02 38 70</p>
+                <p>Un lieu branché où déguster un gazpacho traditionnel accompagné de tapas.</p>
             </div>
-            <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-maison-du-gazpacho">La Maison du Gazpacho</a></h3>
-                <p><span>Adresse :</span> 25 Rue Saint-Antoine, 75011 Paris</p>
-                <p><span>Contact :</span> +33 1 43 72 25 40</p>
-                <p>Spécialisée dans les soupes froides, La Maison du Gazpacho propose une version classique et une version innovante aux herbes fraîches.</p>
+                <h3><a href="/restaurant/los-gatos">Los Gatos</a></h3>
+                <p><span>Adresse :</span> Calle de Jesús, 2, 28014 Madrid</p>
+                <p><span>Contact :</span> +34 914 29 30 67</p>
+                <p>Un bar typique où le gazpacho est préparé selon la recette andalouse traditionnelle.</p>
             </div>
-            <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/el-tienda">El Tienda</a></h3>
-                <p><span>Adresse :</span> 4 Rue de la Croix-Rousse, 69004 Lyon</p>
-                <p><span>Contact :</span> +33 4 78 39 22 14</p>
-                <p>El Tienda vous invite à déguster un gazpacho léger et rafraîchissant, préparé avec des produits locaux et servi avec des garnitures savoureuses.</p>
+                <h3><a href="/restaurant/el-pimpi">El Pimpi</a></h3>
+                <p><span>Adresse :</span> Calle Granada, 62, 29015 Málaga</p>
+                <p><span>Contact :</span> +34 952 22 54 03</p>
+                <p>Un lieu emblématique de Malaga proposant un gazpacho frais et plein de saveurs.</p>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
         <p>Conçu avec passion. <a href="#">Mentions légales</a></p>

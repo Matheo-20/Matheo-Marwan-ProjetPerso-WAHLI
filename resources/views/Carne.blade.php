@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants portugais en France pour déguster une Carne de Porco Alentejana, un plat traditionnel à base de porc et de palourdes.">
+    <meta name="description" content="Découvrez les meilleurs restaurants portugais pour déguster la Carne de Porco à l'Alentejana.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants Portugais de Carne de Porco Alentejana en France</title>
+    <title>Top Restaurants pour Déguster la Carne de Porco à l'Alentejana au Portugal</title>
     <style>
-        /* Style global */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -120,8 +119,8 @@
 
     <!-- Header -->
     <header>
-        <h1>Les 5 Meilleurs Restaurants Portugais de Carne de Porco Alentejana en France</h1>
-        <p>Venez déguster la Carne de Porco Alentejana, un plat traditionnel à base de porc et de palourdes, dans ces restaurants portugais renommés.</p>
+        <h1>Les Meilleurs Restaurants pour Déguster la Carne de Porco à l'Alentejana au Portugal</h1>
+        <p>La Carne de Porco à l'Alentejana est un plat typique de la cuisine portugaise, délicieux et savoureux, à base de porc et de palourdes. Découvrez où le déguster.</p>
     </header>
 
     <nav>
@@ -131,45 +130,45 @@
 
     <!-- Main content -->
     <div class="main-content">
-        <h2>Carne de Porco Alentejana : Un Plat Iconique du Portugal</h2>
-        <p>La Carne de Porco Alentejana est un plat portugais typique, combinant du porc tendre et des palourdes, parfumé d'herbes et de vin blanc. Découvrez où déguster ce délice en France :</p>
+        <h2>La Carne de Porco à l'Alentejana, une Spécialité du Portugal</h2>
+        <p>Ce plat traditionnel est une véritable spécialité de l'Alentejo, où le porc se marie parfaitement avec des palourdes, le tout cuit avec des épices et des herbes. C'est un incontournable pour les amateurs de cuisine portugaise.</p>
 
         <!-- Liste des restaurants -->
         <div class="restaurant-list">
             <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/porco-alentejana">Porco Alentejana</a></h3>
-                <p><span>Adresse :</span> 22 Rue des Petites Écuries, 75010 Paris</p>
-                <p><span>Contact :</span> +33 1 44 45 67 89</p>
-                <p>Un restaurant spécialisé dans la cuisine de l'Alentejo, avec une recette authentique de Carne de Porco Alentejana, préparée selon les traditions portugaises.</p>
+                <h3><a href="/restaurant/carne-alejano-lisbonne">Adega da Tia Matilde - Lisbonne</a></h3>
+                <p><span>Adresse :</span> Rua dos Bacalhoeiros 16, 1100-070 Lisbonne</p>
+                <p><span>Contact :</span> +351 21 880 0167</p>
+                <p>Un restaurant authentique où la Carne de Porco à l'Alentejana est préparée selon la recette traditionnelle avec des produits locaux frais.</p>
             </div>
             <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/terra-alentejana">Terra Alentejana</a></h3>
-                <p><span>Adresse :</span> 10 Rue du Faubourg Saint-Antoine, 75011 Paris</p>
-                <p><span>Contact :</span> +33 1 43 48 69 10</p>
-                <p>Venez goûter à cette version authentique de la Carne de Porco Alentejana, servie avec des pommes de terre et un savoureux vin blanc portugais.</p>
+                <h3><a href="/restaurant/carne-alejano-evora">Taberna do Adro - Évora</a></h3>
+                <p><span>Adresse :</span> Praça do Giraldo 17, 7000-508 Évora</p>
+                <p><span>Contact :</span> +351 266 743 320</p>
+                <p>Dans le cœur historique d'Évora, ce restaurant vous propose une Carne de Porco à l'Alentejana pleine de saveurs et accompagnée de bons vins de la région.</p>
             </div>
             <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/a-taberna-do-porco">A Taberna do Porco</a></h3>
-                <p><span>Adresse :</span> 15 Rue de la République, 75003 Paris</p>
-                <p><span>Contact :</span> +33 1 42 01 23 45</p>
-                <p>Ce restaurant propose une Carne de Porco Alentejana parfaitement mijotée, avec une sauce qui fait ressortir toute la richesse des saveurs portugaises.</p>
+                <h3><a href="/restaurant/carne-alejano-portimao">O Barril - Portimão</a></h3>
+                <p><span>Adresse :</span> Rua da Praia 14, 8500-201 Portimão</p>
+                <p><span>Contact :</span> +351 282 415 416</p>
+                <p>Situé en bord de mer, ce restaurant vous servira une Carne de Porco à l'Alentejana avec une touche moderne et une ambiance détendue.</p>
             </div>
             <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/portugal-alentejo">Portugal Alentejo</a></h3>
-                <p><span>Adresse :</span> 28 Avenue de la Bourdonnais, 75007 Paris</p>
-                <p><span>Contact :</span> +33 1 45 67 89 23</p>
-                <p>Le restaurant vous offre une expérience culinaire authentique avec sa Carne de Porco Alentejana, accompagnée d'une purée de pommes de terre maison.</p>
+                <h3><a href="/restaurant/carne-alejano-beja">Restaurante O Comércio - Beja</a></h3>
+                <p><span>Adresse :</span> Rua de São Sebastião 17, 7800-060 Beja</p>
+                <p><span>Contact :</span> +351 284 327 739</p>
+                <p>Un restaurant traditionnel dans la région de l'Alentejo, où la Carne de Porco à l'Alentejana est un véritable délice, accompagné de pain maison et d'une bonne sangria.</p>
             </div>
             <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/bacalhau-e-porco">Bacalhau e Porco</a></h3>
-                <p><span>Adresse :</span> 5 Rue du Commerce, 75015 Paris</p>
-                <p><span>Contact :</span> +33 1 43 60 23 56</p>
-                <p>Un mélange délicieux de morue et de porc, mais leur Carne de Porco Alentejana est un incontournable, avec des palourdes fraîches et une viande tendre à souhait.</p>
+                <h3><a href="/restaurant/carne-alejano-albufeira">A Ruína - Albufeira</a></h3>
+                <p><span>Adresse :</span> Largo do Castelo 15, 8200-147 Albufeira</p>
+                <p><span>Contact :</span> +351 289 591 567</p>
+                <p>Un restaurant de la région de l'Algarve où la Carne de Porco à l'Alentejana est servie dans un cadre typique et agréable, à quelques pas de la mer.</p>
             </div>
         </div>
     </div>

@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Calulu.jpeg" alt="Calulu">
-                <h3><a href="/plat/calulu">Calulu</a></h3>
+                <h3><a href="/client/Calulu">Calulu</a></h3>
                 <p>Un ragoût de poisson séché ou frais, cuit avec des légumes et de l’huile de palme, servi avec du riz ou du funge.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Cachupa.jpeg" alt="Cachupa à l'angolaise">
-                <h3><a href="/plat/cachupa">Cachupa à l'angolaise</a></h3>
+                <h3><a href="/client/Cachupa">Cachupa à l'angolaise</a></h3>
                 <p>Une variante angolaise de ce ragoût de maïs et de haricots, souvent enrichi de viande ou de poisson.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Funge.jpeg" alt="Funge de Milho">
-                <h3><a href="/plat/funge">Funge de Milho</a></h3>
+                <h3><a href="/client/Funge">Funge de Milho</a></h3>
                 <p>Un accompagnement typique de farine de maïs, parfait avec les ragoûts et les plats en sauce.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Muamba.jpeg" alt="Muamba de Galinha">
-                <h3><a href="/plat/muamba">Muamba de Galinha</a></h3>
+                <h3><a href="/client/Muamba">Muamba de Galinha</a></h3>
                 <p>Un ragoût de poulet à base d’huile de palme, d’arachides et d’épices, accompagné de riz ou de funge.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Doce.jpeg" alt="Doce de Ginguba">
-                <h3><a href="/plat/doce-de-ginguba">Doce de Ginguba</a></h3>
+                <h3><a href="/client/Doce">Doce de Ginguba</a></h3>
                 <p>Un dessert croquant et sucré à base de cacahuètes caramélisées.</p>
             </div>
         </div>

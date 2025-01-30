@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants en France pour déguster des tapas, une spécialité espagnole pleine de saveurs.">
+    <meta name="description" content="Découvrez les 5 meilleurs restaurants en Espagne pour déguster des tapas authentiques, un élément incontournable de la cuisine espagnole.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants de Tapas en France</title>
+    <title>Top 5 Restaurants de Tapas en Espagne</title>
     <style>
         /* Style global */
         body {
@@ -117,11 +117,10 @@
     </style>
 </head>
 <body>
-
-    <!-- Header -->
+    
     <header>
-        <h1>Les 5 Meilleurs Restaurants de Tapas en France</h1>
-        <p>Venez savourer une délicieuse sélection de tapas dans ces restaurants espagnols incontournables.</p>
+        <h1>Les 5 Meilleurs Restaurants de Tapas en Espagne</h1>
+        <p>Découvrez les meilleurs endroits en Espagne pour déguster des tapas authentiques et savoureuses.</p>
     </header>
 
     <nav>
@@ -129,52 +128,44 @@
         <a href="Contact">Contact</a>
     </nav>
 
-    <!-- Main content -->
     <div class="main-content">
-        <h2>Les Tapas : Une Explosion de Saveurs</h2>
-        <p>Les tapas sont une véritable tradition espagnole, et chaque bouchée est une invitation à voyager. Découvrez nos sélections :</p>
+        <h2>Des Tapas Délicieuses à Partager</h2>
+        <p>Les tapas, ces petites portions savoureuses, sont un incontournable de la gastronomie espagnole. Voici une sélection des meilleurs restaurants pour les déguster :</p>
 
-        <!-- Liste des restaurants -->
         <div class="restaurant-list">
-            <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-taberna-del-sol">La Taberna del Sol</a></h3>
-                <p><span>Adresse :</span> 22 Rue des Vins, 69001 Lyon</p>
-                <p><span>Contact :</span> +33 4 78 43 19 27</p>
-                <p>Ce restaurant vous propose des tapas typiques, des classiques comme la tortilla, les croquetas, ainsi que des spécialités maison.</p>
+                <h3><a href="/restaurant/casa-lola">Casa Lola</a></h3>
+                <p><span>Adresse :</span> Calle Granada, 6, 29015 Málaga</p>
+                <p><span>Contact :</span> +34 952 22 43 46</p>
+                <p>Un restaurant chaleureux où déguster des tapas traditionnelles avec une touche moderne.</p>
             </div>
-            <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/els-tapas">Els Tapas</a></h3>
-                <p><span>Adresse :</span> 15 Boulevard Montparnasse, 75006 Paris</p>
-                <p><span>Contact :</span> +33 1 43 26 12 15</p>
-                <p>Une adresse parfaite pour découvrir une large variété de tapas, avec une ambiance conviviale et des produits frais de qualité.</p>
+                <h3><a href="/restaurant/quimet-quimet">Quimet & Quimet</a></h3>
+                <p><span>Adresse :</span> Carrer del Poeta Cabanyes, 25, 08004 Barcelone</p>
+                <p><span>Contact :</span> +34 934 42 31 42</p>
+                <p>Un petit bar à tapas emblématique connu pour ses montaditos et ses conserves de qualité.</p>
             </div>
-            <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/tapas-y-olives">Tapas y Olives</a></h3>
-                <p><span>Adresse :</span> 30 Rue du Marais, 75003 Paris</p>
-                <p><span>Contact :</span> +33 1 42 78 47 29</p>
-                <p>Venez savourer une sélection de tapas authentiques dans ce restaurant au décor espagnol traditionnel, accompagné de vins délicieux.</p>
+                <h3><a href="/restaurant/el-xampanyet">El Xampanyet</a></h3>
+                <p><span>Adresse :</span> Carrer de Montcada, 22, 08003 Barcelone</p>
+                <p><span>Contact :</span> +34 933 19 70 03</p>
+                <p>Un incontournable à Barcelone pour accompagner ses tapas d'un verre de cava.</p>
             </div>
-            <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/una-tapas">Una Tapas</a></h3>
-                <p><span>Adresse :</span> 8 Place de la République, 31000 Toulouse</p>
-                <p><span>Contact :</span> +33 5 61 52 22 13</p>
-                <p>Un restaurant qui propose une variété de tapas créatives, avec des ingrédients frais et une ambiance chaleureuse typique de l'Espagne.</p>
+                <h3><a href="/restaurant/cerveceria-catalana">Cervecería Catalana</a></h3>
+                <p><span>Adresse :</span> Carrer de Mallorca, 236, 08008 Barcelone</p>
+                <p><span>Contact :</span> +34 932 16 03 68</p>
+                <p>Un lieu réputé pour ses tapas variées et son ambiance animée.</p>
             </div>
-            <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/els-bonitos">Els Bonitos</a></h3>
-                <p><span>Adresse :</span> 18 Rue de la Plage, 13200 Marseille</p>
-                <p><span>Contact :</span> +33 4 91 85 91 62</p>
-                <p>Un restaurant espagnol incontournable à Marseille, offrant une expérience authentique de tapas à partager, avec une excellente sélection de vins.</p>
+                <h3><a href="/restaurant/bodega-la-ardosa">Bodega La Ardosa</a></h3>
+                <p><span>Adresse :</span> Calle de Colón, 13, 28004 Madrid</p>
+                <p><span>Contact :</span> +34 915 21 49 79</p>
+                <p>Un bar traditionnel servant certaines des meilleures tortillas de Madrid.</p>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
         <p>Conçu avec passion. <a href="#">Mentions légales</a></p>

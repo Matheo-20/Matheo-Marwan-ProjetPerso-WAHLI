@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Arepa.jpeg" alt="Arepa">
-                <h3><a href="/plat/arepa">Arepa</a></h3>
+                <h3><a href="/client/Arepa">Arepa</a></h3>
                 <p>Une galette de maïs, parfaite pour accompagner divers plats ou garnie de fromage, viande, ou œuf.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Ajiaco.jpeg" alt="Ajiaco">
-                <h3><a href="/plat/ajiaco">Ajiaco</a></h3>
+                <h3><a href="/client/Ajiaco">Ajiaco</a></h3>
                 <p>Une soupe traditionnelle à base de poulet, de pommes de terre et de maïs, accompagnée de riz et de crème.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Bandeja.jpeg" alt="Bandeja Paisa">
-                <h3><a href="/plat/bandeja-paisa">Bandeja Paisa</a></h3>
+                <h3><a href="/client/Bandeja">Bandeja Paisa</a></h3>
                 <p>Un plat copieux composé de viande hachée, d'œuf, de riz, de haricots rouges et d'avocat.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/EmC.jpeg" alt="Empanada Colombienne">
-                <h3><a href="/plat/empanada-colombienne">Empanada Colombienne</a></h3>
+                <h3><a href="/client/EmpanadaC">Empanada Colombienne</a></h3>
                 <p>Une délicieuse pâte frite farcie de viande, de pommes de terre et d'épices, parfaite pour un en-cas.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Pandebono.jpeg" alt="Pandebono">
-                <h3><a href="/plat/pandebono">Pandebono</a></h3>
+                <h3><a href="/client/Pandebono">Pandebono</a></h3>
                 <p>Un petit pain moelleux à base de fromage et de farine de maïs, souvent servi au petit-déjeuner ou en collation.</p>
             </div>
         </div>

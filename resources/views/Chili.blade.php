@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/EmpC.jpeg" alt="Empanadas Chiliennes">
-                <h3><a href="/plat/empanadas">Empanadas Chiliennes</a></h3>
+                <h3><a href="/client/EmpanadaCh">Empanadas Chiliennes</a></h3>
                 <p>Des chaussons fourrés à la viande, aux œufs durs, olives et épices, un classique savoureux.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/PastelC.jpeg" alt="Pastel de Choclo">
-                <h3><a href="/plat/pastel-de-choclo">Pastel de Choclo</a></h3>
+                <h3><a href="/client/PastelD">Pastel de Choclo</a></h3>
                 <p>Un gratin de maïs avec du bœuf haché, du poulet et des œufs durs, une spécialité réconfortante.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Curanto.jpeg" alt="Curanto">
-                <h3><a href="/plat/curanto">Curanto</a></h3>
+                <h3><a href="/client/Curanto">Curanto</a></h3>
                 <p>Un plat traditionnel à base de fruits de mer, viande, pommes de terre et légumes cuits dans un four souterrain.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Caldillo.jpeg" alt="Caldillo de Congrio">
-                <h3><a href="/plat/caldillo-de-congrio">Caldillo de Congrio</a></h3>
+                <h3><a href="/client/Caldillo">Caldillo de Congrio</a></h3>
                 <p>Une soupe de congre, poissons et légumes, célébrée même par le poète Pablo Neruda.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Sopaipillas.jpeg" alt="Sopaipillas">
-                <h3><a href="/plat/sopaipillas">Sopaipillas</a></h3>
+                <h3><a href="/client/Sopaipillas">Sopaipillas</a></h3>
                 <p>Des galettes frites à base de courge, parfaites en accompagnement ou en collation sucrée.</p>
             </div>
         </div>

@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Canard.jpeg" alt="Canard Laqué de Pékin">
-                <h3><a href="/plat/canard-pekin">Canard Laqué de Pékin</a></h3>
+                <h3><a href="/client/Canard">Canard Laqué de Pékin</a></h3>
                 <p>Un classique raffiné, avec une peau croustillante et une viande juteuse, servi avec des crêpes fines.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Dumplings.jpeg" alt="Dumplings">
-                <h3><a href="/plat/dumplings">Dumplings</a></h3>
+                <h3><a href="/client/Dumpling">Dumplings</a></h3>
                 <p>De délicieuses bouchées farcies à la viande ou aux légumes, cuites à la vapeur ou frites.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Mapo.jpeg" alt="Mapo Tofu">
-                <h3><a href="/plat/mapo-tofu">Mapo Tofu</a></h3>
+                <h3><a href="/client/Mapo">Mapo Tofu</a></h3>
                 <p>Un plat épicé du Sichuan à base de tofu, de viande hachée et d'une sauce pimentée.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Nems.jpeg" alt="Nems">
-                <h3><a href="/plat/nems">Nems</a></h3>
+                <h3><a href="/client/Nems">Nems</a></h3>
                 <p>Rouleaux croustillants farcis au porc, aux légumes ou aux fruits de mer, servis avec une sauce aigre-douce.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/RizC.jpeg" alt="Riz Cantonnais">
-                <h3><a href="/plat/riz-cantonnais">Riz Cantonnais</a></h3>
+                <h3><a href="/client/RizC">Riz Cantonnais</a></h3>
                 <p>Un mélange savoureux de riz sauté, d'œufs, de légumes et de viande ou de fruits de mer.</p>
             </div>
         </div>

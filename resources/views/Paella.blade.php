@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants en France pour déguster une authentique paella, un plat emblématique de la cuisine espagnole.">
+    <meta name="description" content="Découvrez les 5 meilleurs restaurants en Espagne pour déguster une authentique paella, un plat emblématique de la cuisine espagnole.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants de Paella en France</title>
+    <title>Top 5 Restaurants de Paella en Espagne</title>
     <style>
         /* Style global */
         body {
@@ -33,7 +33,6 @@
             font-style: italic;
         }
 
-        /* Section principale */
         .main-content {
             padding: 40px 20px;
             text-align: center;
@@ -50,7 +49,6 @@
             margin-bottom: 40px;
         }
 
-        /* Liste des restaurants */
         .restaurant-list {
             max-width: 800px;
             margin: 0 auto;
@@ -97,7 +95,6 @@
             color: #333;
         }
 
-        /* Footer */
         footer {
             background-color: #333;
             color: white;
@@ -117,11 +114,9 @@
     </style>
 </head>
 <body>
-
-    <!-- Header -->
     <header>
-        <h1>Les 5 Meilleurs Restaurants de Paella en France</h1>
-        <p>Découvrez les meilleurs endroits en France pour déguster une paella authentique et savoureuse.</p>
+        <h1>Les 5 Meilleurs Restaurants de Paella en Espagne</h1>
+        <p>Découvrez les meilleurs endroits en Espagne pour déguster une paella authentique et savoureuse.</p>
     </header>
 
     <nav>
@@ -129,56 +124,47 @@
         <a href="Contact">Contact</a>
     </nav>
 
-    <!-- Main content -->
     <div class="main-content">
         <h2>Une Paella Savoureuse à Déguster</h2>
         <p>La paella, un plat espagnol riche en saveurs, est l'un des mets les plus appréciés au monde. Voici une sélection des meilleurs restaurants pour en savourer une :</p>
 
-        <!-- Liste des restaurants -->
         <div class="restaurant-list">
-            <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-paella-de-la-costa">La Paella de la Costa</a></h3>
-                <p><span>Adresse :</span> 18 Rue de la Mer, 66000 Perpignan</p>
-                <p><span>Contact :</span> +33 4 68 66 14 15</p>
-                <p>Un restaurant réputé pour sa paella royale, faite à base de fruits de mer frais et de viandes savamment assaisonnées.</p>
+                <h3><a href="/restaurant/la-pepa">La Pepa</a></h3>
+                <p><span>Adresse :</span> Calle del Mar, 12, 46001 Valence</p>
+                <p><span>Contact :</span> +34 963 52 45 78</p>
+                <p>Un restaurant emblématique de Valence servant une paella traditionnelle au goût inégalé.</p>
             </div>
-            <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/el-rincon-del-mar">El Rincón del Mar</a></h3>
-                <p><span>Adresse :</span> 25 Rue du Soleil, 34000 Montpellier</p>
-                <p><span>Contact :</span> +33 4 67 56 90 12</p>
-                <p>Venez découvrir cette paella traditionnelle servie avec une variété de fruits de mer, dans un cadre chaleureux et coloré.</p>
+                <h3><a href="/restaurant/casa-roberto">Casa Roberto</a></h3>
+                <p><span>Adresse :</span> Avenida de Aragón, 5, 46021 Valence</p>
+                <p><span>Contact :</span> +34 962 34 56 78</p>
+                <p>Un établissement célèbre pour sa paella valencienne cuisinée avec des produits locaux de première qualité.</p>
             </div>
-            <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/casa-paella">Casa Paella</a></h3>
-                <p><span>Adresse :</span> 12 Boulevard de l'Espagne, 75012 Paris</p>
-                <p><span>Contact :</span> +33 1 43 94 70 56</p>
-                <p>Un restaurant espagnol authentique qui sert une paella préparée à la perfection, avec des ingrédients importés directement d'Espagne.</p>
+                <h3><a href="/restaurant/restaurante-levante">Restaurante Levante</a></h3>
+                <p><span>Adresse :</span> Carrer de Murillo, 9, 46183 L'Eliana</p>
+                <p><span>Contact :</span> +34 961 23 45 67</p>
+                <p>Un lieu incontournable pour savourer une paella au safran et aux ingrédients soigneusement sélectionnés.</p>
             </div>
-            <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-taverne-iberique">La Taverne Ibérique</a></h3>
-                <p><span>Adresse :</span> 14 Place des Oliviers, 13001 Marseille</p>
-                <p><span>Contact :</span> +33 4 91 25 37 48</p>
-                <p>Un lieu iconique à Marseille pour savourer une paella familiale dans une ambiance conviviale, avec un excellent rapport qualité/prix.</p>
+                <h3><a href="/restaurant/el-palmar">El Palmar</a></h3>
+                <p><span>Adresse :</span> Calle Mayor, 45, 46012 Valence</p>
+                <p><span>Contact :</span> +34 964 78 90 12</p>
+                <p>Situé près de l'Albufera, ce restaurant propose une paella typique au riz de qualité supérieure.</p>
             </div>
-            <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/paella-andalouse">Paella Andalouse</a></h3>
-                <p><span>Adresse :</span> 38 Rue de l'Espagne, 69001 Lyon</p>
-                <p><span>Contact :</span> +33 4 72 42 56 75</p>
-                <p>Spécialisé dans les paellas de toutes sortes, ce restaurant vous plonge dans l'authenticité de la cuisine espagnole, avec une paella généreuse et pleine de saveurs.</p>
+                <h3><a href="/restaurant/la-matandeta">La Matandeta</a></h3>
+                <p><span>Adresse :</span> Carretera Alfafar, 46012 Valence</p>
+                <p><span>Contact :</span> +34 963 45 67 89</p>
+                <p>Un restaurant champêtre offrant une expérience gastronomique authentique avec des recettes traditionnelles.</p>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
         <p>Conçu avec passion. <a href="#">Mentions légales</a></p>
     </footer>
-
 </body>
 </html>

@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Thieb.jpeg" alt="Thieboudienne">
-                <h3><a href="/plat/thieboudienne">Thieboudienne</a></h3>
+                <h3><a href="/client/Tieb">Thieboudienne</a></h3>
                 <p>Le plat national à base de riz, de poisson, de légumes et d'épices, cuisiné dans une sauce tomate savoureuse.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Yassa.jpeg" alt="Yassa Poulet">
-                <h3><a href="/plat/yassa-poulet">Yassa Poulet</a></h3>
+                <h3><a href="/client/Yassa">Yassa Poulet</a></h3>
                 <p>Un poulet mariné dans du citron, des oignons et des épices, puis mijoté pour un goût acidulé unique.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Mafe.jpeg" alt="Mafé">
-                <h3><a href="/plat/mafe">Mafé</a></h3>
+                <h3><a href="/client/Mafe">Mafé</a></h3>
                 <p>Un ragoût de viande ou de poisson cuisiné avec une sauce riche à base d’arachides.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Domoda.jpeg" alt="Domoda">
-                <h3><a href="/plat/domoda">Domoda</a></h3>
+                <h3><a href="/client/Domoda">Domoda</a></h3>
                 <p>Une sauce onctueuse à base de tomates et de farine, souvent servie avec du riz et du poisson.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Millet.jpeg" alt="Beignets de Millet">
-                <h3><a href="/plat/beignets-millet">Beignets de Millet</a></h3>
+                <h3><a href="/client/Beignet">Beignets de Millet</a></h3>
                 <p>De délicieux beignets sucrés, à base de farine de millet, parfaits pour les collations ou desserts.</p>
             </div>
         </div>

@@ -32,3 +32,5 @@ class ContactsController extends Controller
         return view ('AcceuilClient');
     }
 }
+
+

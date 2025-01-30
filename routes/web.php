@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\ClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -138,6 +139,137 @@ Route::get('/client/Churrasco', 'App\Http\Controllers\ClientController@Churrasco
 
 Route::get('/client/Brigadeiro', 'App\Http\Controllers\ClientController@Brigadeiro');
 
+Route::get('/client/Asado', 'App\Http\Controllers\ClientController@Asado');
+
+Route::get('/client/EmpanadasA', 'App\Http\Controllers\ClientController@EmpanadasA');
+
+Route::get('/client/Choripan', 'App\Http\Controllers\ClientController@Choripan');
+
+Route::get('/client/Milanesa', 'App\Http\Controllers\ClientController@Milanesa');
+
+Route::get('/client/Dulce', 'App\Http\Controllers\ClientController@Dulce');
+
+Route::get('/client/Arepa', 'App\Http\Controllers\ClientController@Arepa');
+
+Route::get('/client/Ajiaco', 'App\Http\Controllers\ClientController@Ajiaco');
+
+Route::get('/client/Bandeja', 'App\Http\Controllers\ClientController@Bandeja');
+
+Route::get('/client/EmpanadaC', 'App\Http\Controllers\ClientController@EmpanadaC');
+
+Route::get('/client/Pandebono', 'App\Http\Controllers\ClientController@Pandebono');
+
+Route::get('/client/EmpanadaCh', 'App\Http\Controllers\ClientController@EmpanadaCh');
+
+Route::get('/client/PastelD', 'App\Http\Controllers\ClientController@PastelD');
+
+Route::get('/client/Curanto', 'App\Http\Controllers\ClientController@Curanto');
+
+Route::get('/client/Caldillo', 'App\Http\Controllers\ClientController@Caldillo');
+
+Route::get('/client/Sopaipillas', 'App\Http\Controllers\ClientController@Sopaipillas');
+
+Route::get('/client/Couscous', 'App\Http\Controllers\ClientController@Couscous');
+
+Route::get('/client/Tagine', 'App\Http\Controllers\ClientController@Tagine');
+
+Route::get('/client/Pastilla', 'App\Http\Controllers\ClientController@Pastilla');
+
+Route::get('/client/Harira', 'App\Http\Controllers\ClientController@Harira');
+
+Route::get('/client/Chebakia', 'App\Http\Controllers\ClientController@Chebakia');
+
+Route::get('/client/Seffa', 'App\Http\Controllers\ClientController@Seffa');
+
+
+
+Route::get('/client/Attieke', 'App\Http\Controllers\ClientController@Attieke');
+
+Route::get('/client/SauceArachide', 'App\Http\Controllers\ClientController@SauceA');
+
+Route::get('/client/Kedjenou', 'App\Http\Controllers\ClientController@Kedjenou');
+
+Route::get('/client/Alloco', 'App\Http\Controllers\ClientController@Alloco');
+
+Route::get('/client/Foutou', 'App\Http\Controllers\ClientController@Foutou');
+
+Route::get('/client/Tieb', 'App\Http\Controllers\ClientController@Tieb');
+
+Route::get('/client/Yassa', 'App\Http\Controllers\ClientController@Yassa');
+
+Route::get('/client/Mafe', 'App\Http\Controllers\ClientController@Mafe');
+
+Route::get('/client/Domoda', 'App\Http\Controllers\ClientController@Domoda');
+
+Route::get('/client/Beignet', 'App\Http\Controllers\ClientController@Beignet');
+
+
+Route::get('/client/Calulu', 'App\Http\Controllers\ClientController@Calulu');
+Route::get('/client/Doce', 'App\Http\Controllers\ClientController@Doce');
+Route::get('/client/Cachupa', 'App\Http\Controllers\ClientController@Cachupa');
+Route::get('/client/Funge', 'App\Http\Controllers\ClientController@Funge');
+Route::get('/client/Muamba', 'App\Http\Controllers\ClientController@Muamba');
+
+
+Route::get('/client/Canard', 'App\Http\Controllers\ClientController@Canard');
+Route::get('/client/Dumpling', 'App\Http\Controllers\ClientController@Dumpling');
+Route::get('/client/Mapo', 'App\Http\Controllers\ClientController@Mapo');
+Route::get('/client/Nems', 'App\Http\Controllers\ClientController@Nems');
+Route::get('/client/RizC', 'App\Http\Controllers\ClientController@RizC');
+
+
+Route::get('/client/Matcha', 'App\Http\Controllers\ClientController@Matcha');
+Route::get('/client/Sushi', 'App\Http\Controllers\ClientController@Sushi');
+Route::get('/client/Ramen', 'App\Http\Controllers\ClientController@Ramen');
+Route::get('/client/Tempura', 'App\Http\Controllers\ClientController@Tempura');
+Route::get('/client/Oko', 'App\Http\Controllers\ClientController@Oko');
+
+
+
+Route::get('/client/Pad', 'App\Http\Controllers\ClientController@Pad');
+Route::get('/client/Mango', 'App\Http\Controllers\ClientController@Mango');
+Route::get('/client/Curry', 'App\Http\Controllers\ClientController@Curry');
+Route::get('/client/Tom', 'App\Http\Controllers\ClientController@Tom');
+Route::get('/client/Som', 'App\Http\Controllers\ClientController@Som');
+
+Route::get('/client/Biryani', 'App\Http\Controllers\ClientController@Biryani');
+Route::get('/client/Gulab', 'App\Http\Controllers\ClientController@Gulab');
+Route::get('/client/Nihari', 'App\Http\Controllers\ClientController@Nihari');
+Route::get('/client/Seekh', 'App\Http\Controllers\ClientController@Seekh');
+Route::get('/client/Haleem', 'App\Http\Controllers\ClientController@Haleem');
+
+
+
+Route::get('/client/Meat', 'App\Http\Controllers\ClientController@Meat');
+Route::get('/client/Fairy', 'App\Http\Controllers\ClientController@Fairy');
+Route::get('/client/Pavlova', 'App\Http\Controllers\ClientController@Pavlova');
+Route::get('/client/Lamington', 'App\Http\Controllers\ClientController@Lamington');
+Route::get('/client/Barbecued', 'App\Http\Controllers\ClientController@Barbecued');
+
+
+Route::get('/client/Hangi', 'App\Http\Controllers\ClientController@Hangi');
+Route::get('/client/Moule', 'App\Http\Controllers\ClientController@Moule');
+Route::get('/client/Paua', 'App\Http\Controllers\ClientController@Paua');
+Route::get('/client/CheeseR', 'App\Http\Controllers\ClientController@CheeseR');
+Route::get('/client/Agneau', 'App\Http\Controllers\ClientController@Agneau');
+
+
+Route::get('/client/Kokoda', 'App\Http\Controllers\ClientController@Kokoda');
+Route::get('/client/Cassava', 'App\Http\Controllers\ClientController@Cassava');
+Route::get('/client/Palusami', 'App\Http\Controllers\ClientController@Palusami');
+Route::get('/client/Lovo', 'App\Http\Controllers\ClientController@Lovo');
+Route::get('/client/Roti', 'App\Http\Controllers\ClientController@Roti');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -223,9 +355,41 @@ Route::get('/client/ListeResto','App\Http\Controllers\ClientController@ListeRest
 
 
 Route::get('/client/inscription','App\Http\Controllers\ClientController@inscription'); 
+Route::POST('/client/inscription','App\Http\Controllers\ClientController@inscription'); 
+
+Route::get('/client/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient');
+Route::POST('/client/connecter',[ClientController::class, 'connecter']);
 
 
-Route::get('/client/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient'); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Route::get('/client/deconnecterClient','App\Http\Controllers\ClientController@deconnecterClient'); 

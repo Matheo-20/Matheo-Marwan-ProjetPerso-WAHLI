@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Sushi.jpeg" alt="Sushi">
-                <h3><a href="/plat/sushi">Sushi</a></h3>
+                <h3><a href="/client/Sushi">Sushi</a></h3>
                 <p>Des bouchées élégantes de riz vinaigré garnies de poisson cru ou de fruits de mer.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Ramen.jpeg" alt="Ramen">
-                <h3><a href="/plat/ramen">Ramen</a></h3>
+                <h3><a href="/client/Ramen">Ramen</a></h3>
                 <p>Un bol de nouilles savoureuses dans un bouillon riche, garni de porc, d'œufs et de légumes.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Tempura.jpeg" alt="Tempura">
-                <h3><a href="/plat/tempura">Tempura</a></h3>
+                <h3><a href="/client/Tempura">Tempura</a></h3>
                 <p>Des légumes ou des fruits de mer enrobés de pâte légère et frits jusqu'à être dorés.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Okonomiyaki.jpeg" alt="Okonomiyaki">
-                <h3><a href="/plat/okonomiyaki">Okonomiyaki</a></h3>
+                <h3><a href="/client/Oko">Okonomiyaki</a></h3>
                 <p>Une sorte de crêpe salée garnie de chou, de viande ou de fruits de mer, nappée de sauces savoureuses.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Matcha.jpeg" alt="Desserts au Matcha">
-                <h3><a href="/plat/matcha-desserts">Desserts au Matcha</a></h3>
+                <h3><a href="/client/Matcha">Desserts au Matcha</a></h3>
                 <p>Des douceurs délicates à base de thé vert matcha, parfaites pour finir un repas.</p>
             </div>
         </div>

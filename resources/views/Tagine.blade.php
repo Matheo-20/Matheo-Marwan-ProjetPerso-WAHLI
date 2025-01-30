@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les meilleurs restaurants au Maroc pour savourer un authentique tajine, un plat marocain traditionnel riche en saveurs et épices.">
+    <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
+    <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
+    <title>Top 5 Restaurants pour Déguster un Tajine au Maroc</title>
+    <style>
+        /* Style global */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db; /* Bleu */
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Section principale */
+        .main-content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            color: #3498db; /* Bleu */
+        }
+
+        .main-content p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        /* Liste des restaurants */
+        .restaurant-list {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .restaurant {
+            background-color: #fff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .restaurant:hover {
+            transform: translateY(-5px);
+        }
+
+        .restaurant h3 {
+            font-size: 24px;
+            color: #3498db; /* Bleu */
+            margin-bottom: 10px;
+        }
+
+        .restaurant h3 a {
+            text-decoration: none;
+            color: #3498db; /* Bleu */
+            transition: color 0.3s ease;
+        }
+
+        .restaurant h3 a:hover {
+            color: #1abc9c; /* Vert clair */
+        }
+
+        .restaurant p {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .restaurant p span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 16px;
+        }
+
+        footer a {
+            color: #3498db; /* Bleu */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Les 5 Meilleurs Restaurants pour Déguster un Tajine au Maroc</h1>
+        <p>Un plat marocain traditionnel, riche en saveurs, préparé lentement dans un tajine en terre cuite.</p>
+    </header>
+
+    <nav>
+        <a href="AccueilClient">Accueil</a>
+        <a href="Contact">Contact</a>
+    </nav>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <h2>Le Tajine : Un Plat Incontournable du Maroc</h2>
+        <p>Le tajine, un mélange de viande, légumes, fruits secs et épices, est un plat qui représente la richesse de la cuisine marocaine. Voici quelques restaurants au Maroc où vous pouvez savourer un tajine authentique :</p>
+
+        <!-- Liste des restaurants -->
+        <div class="restaurant-list">
+            <!-- Restaurant 1 -->
+            <div class="restaurant">
+                <h3><a href="/restaurant/restaurant-tajine-royal">Restaurant Tajine Royal</a></h3>
+                <p><span>Adresse :</span> Rue de la Médina, Marrakech, Maroc</p>
+                <p><span>Contact :</span> +212 5 24 38 21 45</p>
+                <p>Un restaurant renommé pour son tajine royal, préparé avec des ingrédients frais et des épices marocaines traditionnelles.</p>
+            </div>
+            <!-- Restaurant 2 -->
+            <div class="restaurant">
+                <h3><a href="/restaurant/riad-du-tajine">Riad du Tajine</a></h3>
+                <p><span>Adresse :</span> Riad Zitoune, Fès, Maroc</p>
+                <p><span>Contact :</span> +212 5 35 63 71 98</p>
+                <p>Ce riad propose un tajine aux saveurs inoubliables, cuit lentement dans un tajine en terre cuite, comme le veut la tradition.</p>
+            </div>
+            <!-- Restaurant 3 -->
+            <div class="restaurant">
+                <h3><a href="/restaurant/couscous-et-tajine">Couscous et Tajine</a></h3>
+                <p><span>Adresse :</span> Place Jemaa El-Fna, Marrakech, Maroc</p>
+                <p><span>Contact :</span> +212 5 24 38 56 23</p>
+                <p>Un restaurant populaire de Marrakech, offrant des tajines divers, allant du tajine d'agneau aux légumes, au tajine de poulet aux citrons confits.</p>
+            </div>
+            <!-- Restaurant 4 -->
+            <div class="restaurant">
+                <h3><a href="/restaurant/chez-moulay-tajine">Chez Moulay Tajine</a></h3>
+                <p><span>Adresse :</span> Avenue Mohammed V, Casablanca, Maroc</p>
+                <p><span>Contact :</span> +212 5 22 30 39 28</p>
+                <p>Un lieu incontournable pour déguster un tajine d'agneau aux pruneaux ou un tajine de poulet aux olives, préparé avec des produits locaux.</p>
+            </div>
+            <!-- Restaurant 5 -->
+            <div class="restaurant">
+                <h3><a href="/restaurant/riad-tajine">Riad Tajine</a></h3>
+                <p><span>Adresse :</span> Rue Moulay Idriss, Rabat, Maroc</p>
+                <p><span>Contact :</span> +212 5 37 75 12 34</p>
+                <p>Ce restaurant offre un tajine délicieux, avec une variété de légumes frais et d'épices parfumées, pour un repas traditionnel marocain authentique.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 WAHLI - Tous droits réservés</p>
+        <p>Conçu avec passion. <a href="#">Mentions légales</a></p>
+    </footer>
+
+</body>
+</html>

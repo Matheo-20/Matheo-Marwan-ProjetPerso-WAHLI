@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Kokoda.jpeg" alt="Kokoda">
-                <h3><a href="/plat/kokoda">Kokoda</a></h3>
+                <h3><a href="/client/Kokoda">Kokoda</a></h3>
                 <p>Un plat traditionnel à base de poisson cru mariné dans du lait de coco, un peu de jus de citron et des légumes frais.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Palusami.jpeg" alt="Palusami">
-                <h3><a href="/plat/palusami">Palusami</a></h3>
+                <h3><a href="/client/Palusami">Palusami</a></h3>
                 <p>Des feuilles de taro cuites avec du lait de coco, souvent servies avec du poisson ou de la viande.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Lovo.jpeg" alt="Lovo">
-                <h3><a href="/plat/lovo">Lovo</a></h3>
+                <h3><a href="/client/Lovo">Lovo</a></h3>
                 <p>Un plat cuit dans un four traditionnel enterré, comprenant des viandes, des légumes et du riz.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Roti.jpeg" alt="Roti Fidjien">
-                <h3><a href="/plat/roti-fidjien">Roti Fidjien</a></h3>
+                <h3><a href="/client/Roti">Roti Fidjien</a></h3>
                 <p>Un pain traditionnel qui accompagne de nombreux repas fidjiens, souvent dégusté avec des currys ou du lait de coco.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Cassava.jpeg" alt="Cassava Cake">
-                <h3><a href="/plat/cassava-cake">Cassava Cake</a></h3>
+                <h3><a href="/client/Cassava">Cassava Cake</a></h3>
                 <p>Un gâteau à base de manioc, cuit avec du lait de coco et du sucre, créant une texture moelleuse et sucrée.</p>
             </div>
         </div>

@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Attiieke.jpeg" alt="Attiéké au Poisson">
-                <h3><a href="/plat/attieke-poisson">Attiéké au Poisson</a></h3>
+                <h3><a href="/client/Attieke">Attiéké au Poisson</a></h3>
                 <p>Le plat emblématique à base de semoule de manioc, accompagné de poisson grillé et d'une sauce épicée.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Sauce.jpeg" alt="Sauce Arachide">
-                <h3><a href="/plat/sauce-arachide">Sauce Arachide</a></h3>
+                <h3><a href="/client/SauceArachide">Sauce Arachide</a></h3>
                 <p>Une sauce riche et savoureuse à base d’arachides, souvent servie avec du riz ou du foutou.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Kedjenou.jpeg" alt="Kedjenou de Poulet">
-                <h3><a href="/plat/kedjenou">Kedjenou de Poulet</a></h3>
+                <h3><a href="/client/Kedjenou">Kedjenou de Poulet</a></h3>
                 <p>Un poulet mijoté aux légumes et épices, cuit lentement pour un goût intense et parfumé.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Alloco.jpeg" alt="Alloco">
-                <h3><a href="/plat/alloco">Alloco</a></h3>
+                <h3><a href="/client/Alloco">Alloco</a></h3>
                 <p>Des bananes plantains frites, croustillantes et dorées, servies avec une sauce tomate épicée.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Foutou.jpeg" alt="Foutou">
-                <h3><a href="/plat/foutou">Foutou</a></h3>
+                <h3><a href="/client/Foutou">Foutou</a></h3>
                 <p>Une pâte moelleuse à base de banane plantain ou d’igname, accompagnée de différentes sauces.</p>
             </div>
         </div>

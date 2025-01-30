@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Client;
+
+
+
 use Illuminate\Http\Request;
 
 class ClientController extends Controller {
@@ -13,6 +17,37 @@ class ClientController extends Controller {
     public function connexionClient(){
         return view ('connexionClient');
     }
+
+    public function connecter(Request $request){
+
+        $email = $request -> input('email');
+        $mdp = $request -> input('mdp');
+
+        $clients = Client::select('nom','email')
+                            -> where ('email' , $email)
+                            -> where ('mdp', $mdp)
+                            ->first();
+            if($clients){
+
+                session() -> put ('clients' ,$clients);
+                return view ('vue-espace-perso');
+            }
+            else{
+                return view ('seConnecterClient') -> with('connexion_nok',True);
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
 
     public function Pizza(){
         return view ('Pizza');
@@ -179,6 +214,304 @@ class ClientController extends Controller {
     public function Brigadeiro(){
         return view ('Brigadeiro');
     }
+
+    public function Asado(){
+        return view ('Asado');
+    }
+
+    public function EmpanadasA(){
+        return view ('EmpanadasA');
+    }
+
+    public function Milanesa(){
+        return view ('Milanesa');
+    }
+
+
+    public function Choripan(){
+        return view ('Choripan');
+    }
+
+    
+    public function Dulce(){
+        return view ('Dulce');
+    }
+
+    public function Arepa(){
+        return view ('Arepa');
+    }
+
+    public function Ajiaco(){
+        return view ('Ajiaco');
+    }
+
+    public function Bandeja(){
+        return view ('Bandeja');
+    }
+
+    public function EmpanadaC(){
+        return view ('EmpanadaC');
+    }
+
+    public function Pandebono(){
+        return view ('Pandebono');
+    }
+
+    public function EmpanadaCh(){
+        return view ('EmpanadasCh');
+    }
+
+    public function Sopaipillas(){
+        return view ('Sopaipillas');
+    }
+
+    public function PastelD(){
+        return view ('PastelD');
+    }
+
+    public function Curanto(){
+        return view ('Curanto');
+    }
+    public function Caldillo(){
+        return view ('Caldillo');
+    }
+
+
+    public function Couscous(){
+        return view ('Couscous');
+    }
+
+
+    public function Tagine(){
+        return view ('Tagine');
+    }
+
+
+    public function Harira(){
+        return view ('Harira');
+    }
+
+    public function Pastilla(){
+        return view ('Pastilla');
+    }
+
+    public function Chebakia(){
+        return view ('Chebakia');
+    }
+
+    public function Seffa(){
+        return view ('Seffa');
+    }
+
+    public function Attieke(){
+        return view ('Attieke');
+    }
+
+    public function Foutou(){
+        return view ('Foutou');
+    }
+
+    public function SauceA(){
+        return view ('SauceA');
+    }
+
+    public function Alloco (){
+        return view ('Alloco');
+    }
+
+    public function Kedjenou (){
+        return view ('Kedjenou');
+    }
+
+    Public function Tieb(){
+        return view ('Tieb');
+    }
+
+    public function Yassa(){
+        return view ('Yassa');
+    }
+
+    public function Mafe(){
+        return view ('Mafe');
+    }
+
+    public function Domoda(){
+        return view ('Domoda');
+    }
+
+    public function Beignet(){
+        return view ('Beignet');
+    }
+
+    public function Calulu(){
+        return view ('Calulu');
+    }
+
+    public function Cachupa(){
+        return view ('Cachupa');
+    }
+
+    public function Funge(){
+        return view ('Funge');
+    }
+
+    public function Muamba(){
+        return view ('Muamba');
+    }
+
+    public function Doce(){
+        return view ('Doce');
+    }
+
+    public function Canard(){
+        return view ('Canard');
+    }
+
+    public function Dumpling(){
+        return view ('Dumpling');
+    }
+
+    public function Mapo(){
+        return view ('Mapo');
+    }
+
+    public function Nems(){
+        return view ('Nems');
+    }
+
+    public function RizC(){
+        return view ('RizC');
+    }
+
+    public function Sushi(){
+        return view ('Sushi');
+    }
+
+    public function Ramen (){
+        return view ('Tempura');
+    }
+
+    public function Tempura(){
+        return view ('Tempura');
+    }
+
+    public function Matcha(){
+        return view ('Matcha');
+    }
+
+    public function Oko(){
+        return view ('Oko');
+    }
+
+    public function Pad(){
+        return view ('Pad');
+    }
+
+    public function Som(){
+        return view ('Som');
+    }
+
+
+    public function Tom(){
+        return view ('Tom');
+    }
+
+    public function Curry(){
+        return view ('Curry');
+    }
+
+    public function Mango(){
+        return view ('Mango');
+    }
+
+    public function Biryani(){
+        return view ('Biryani');
+    }
+
+    public function Nihari(){
+        return view ('Nihari');
+    }
+
+    public function Seekh(){
+        return view ('Seekh');
+    }
+
+    public function Haleem(){
+        return view ('Haleem');
+    }
+
+    public function Gulab(){
+        return view ('Gulab');
+    }
+
+
+    public function Meat(){
+        return view ('Meat');
+    }
+
+    public function Lamington(){
+        return view ('Lamington');
+    }
+
+    public function Pavlova(){
+        return view ('Pavlova');
+
+    }
+       
+
+    public function Barbecued(){
+        return view ('Barbecued');
+    }
+
+    public function Fairy(){
+        return view ('Fairy');
+    }
+
+    public function CheeseR(){
+        return view ('CheeseR');
+    }
+
+    public function Moule(){
+        return view ('Moule');
+    }
+
+    public function Paua(){
+        return view ('Paua');
+    }
+
+    public function Hangi(){
+        return view ('Hangi');
+    }
+
+    public function Agneau(){
+        return view ('Agneau');
+    }
+
+    public function Kokoda(){
+        return view ('Kokoda');
+    }
+
+    public function Palusami(){
+        return view ('Palusami');
+    }
+
+    public function Lovo(){
+        return view ('Lovo');
+    }
+
+
+    public function Roti(){
+        return view ('Roti');
+    }
+
+    public function Cassava(){
+        return view ('Cassava');
+    }
+
+
+
+
+
 
 
 
@@ -373,4 +706,5 @@ class ClientController extends Controller {
     public function ChoisirPays(){
         return view ('ChoisirPays');
     }
+
 }

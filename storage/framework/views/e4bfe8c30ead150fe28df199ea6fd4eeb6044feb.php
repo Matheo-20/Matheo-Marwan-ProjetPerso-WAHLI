@@ -144,31 +144,31 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/asado.jpeg" alt="Asado">
-                <h3><a href="/plat/asado">Asado</a></h3>
+                <h3><a href="/client/Asado">Asado</a></h3>
                 <p>Le barbecue argentin, une tradition incontournable avec des viandes grillées à la perfection.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Empanadas.jpeg" alt="Empanadas">
-                <h3><a href="/plat/empanadas">Empanadas</a></h3>
+                <h3><a href="/client/EmpanadasA">Empanadas</a></h3>
                 <p>Des chaussons farcis avec des viandes, des légumes ou du fromage, parfaits pour une collation.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Milanesa.jpeg" alt="Milanesa">
-                <h3><a href="/plat/milanesa">Milanesa</a></h3>
+                <h3><a href="/client/Milanesa">Milanesa</a></h3>
                 <p>Une escalope de viande panée et frite, souvent servie avec des frites ou une salade.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Choripan.jpeg" alt="Choripán">
-                <h3><a href="/plat/choripan">Choripán</a></h3>
+                <h3><a href="/client/Choripan">Choripán</a></h3>
                 <p>Un sandwich de chorizo grillé, un plat de rue populaire en Argentine, souvent accompagné de chimichurri.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Dulce.jpeg" alt="Dulce de Leche">
-                <h3><a href="/plat/dulce-de-leche">Dulce de Leche</a></h3>
+                <h3><a href="/client/Dulce">Dulce de Leche</a></h3>
                 <p>Un caramel crémeux à base de lait, utilisé dans de nombreux desserts argentins, comme les alfajores.</p>
             </div>
         </div>

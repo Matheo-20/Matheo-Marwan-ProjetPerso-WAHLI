@@ -144,37 +144,37 @@
             <!-- Speciality 1 -->
             <div class="speciality">
                 <img src="/Image/Couscous.jpeg" alt="Couscous">
-                <h3><a href="/plat/couscous">Couscous</a></h3>
+                <h3><a href="/client/Couscous">Couscous</a></h3>
                 <p>Un plat emblématique à base de semoule, accompagné de légumes et souvent de viande.</p>
             </div>
             <!-- Speciality 2 -->
             <div class="speciality">
                 <img src="/Image/Tajine.jpeg" alt="Tagine">
-                <h3><a href="/plat/tagine">Tagine</a></h3>
+                <h3><a href="/client/Tagine">Tagine</a></h3>
                 <p>Un ragoût mijoté aux épices, cuit dans un plat en terre cuite, avec du poulet, de l'agneau ou des légumes.</p>
             </div>
             <!-- Speciality 3 -->
             <div class="speciality">
                 <img src="/Image/Pastilla.jpeg" alt="Pastilla">
-                <h3><a href="/plat/pastilla">Pastilla</a></h3>
+                <h3><a href="/client/Pastilla">Pastilla</a></h3>
                 <p>Une tourte feuilletée sucrée-salée, farcie de poulet ou de pigeons, aux amandes et à la cannelle.</p>
             </div>
             <!-- Speciality 4 -->
             <div class="speciality">
                 <img src="/Image/Harira.jpeg" alt="Harira">
-                <h3><a href="/plat/harira">Harira</a></h3>
+                <h3><a href="/client/Harira">Harira</a></h3>
                 <p>Une soupe riche en saveurs, à base de tomates, lentilles et pois chiches.</p>
             </div>
             <!-- Speciality 5 -->
             <div class="speciality">
                 <img src="/Image/Chebakia.jpeg" alt="Chebakia">
-                <h3><a href="/plat/chebakia">Chebakia</a></h3>
+                <h3><a href="/client/Chebakia">Chebakia</a></h3>
                 <p>Une pâtisserie au miel et aux graines de sésame, délicieusement croquante et sucrée.</p>
             </div>
             <!-- Speciality 6 -->
             <div class="speciality">
                 <img src="/Image/Seffa.jpeg" alt="Seffa">
-                <h3><a href="/plat/Seffa">Seffa</a></h3>
+                <h3><a href="/client/Seffa">Seffa</a></h3>
                 <p>La seffa, plat marocain à base de semoule, est un couscous sucré à la cannelle et aux amandes. </p>
             </div>
         </div>

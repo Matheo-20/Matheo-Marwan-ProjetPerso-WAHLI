@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les 5 meilleurs restaurants portugais en France pour déguster un Bacalhau, un plat emblématique à base de morue.">
+    <meta name="description" content="Découvrez les meilleurs restaurants portugais pour savourer le bacalhau traditionnel.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
-    <title>Top 5 Restaurants Portugais de Bacalhau en France</title>
+    <title>Top 5 Restaurants pour Déguster du Bacalhau au Portugal</title>
     <style>
-        /* Style global */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -120,8 +119,8 @@
 
     <!-- Header -->
     <header>
-        <h1>Les 5 Meilleurs Restaurants Portugais de Bacalhau en France</h1>
-        <p>Venez savourer le Bacalhau, le plat traditionnel portugais à base de morue salée, dans ces restaurants portugais renommés.</p>
+        <h1>Les Meilleurs Restaurants pour Déguster du Bacalhau au Portugal</h1>
+        <p>Le bacalhau, poisson emblématique du Portugal, est un véritable délice que vous devez absolument goûter !</p>
     </header>
 
     <nav>
@@ -131,45 +130,45 @@
 
     <!-- Main content -->
     <div class="main-content">
-        <h2>Bacalhau : Le Plat Traditionnel Portugais</h2>
-        <p>Le Bacalhau, ou morue salée, est un plat emblématique du Portugal. Découvrez où déguster ce délice dans les meilleurs restaurants portugais en France :</p>
+        <h2>Le Bacalhau, une Tradition Culinaire Portugaise</h2>
+        <p>Le bacalhau est un plat incontournable au Portugal. Que ce soit sous forme de morue séchée ou de plats comme le bacalhau à brás, découvrez les meilleures adresses pour goûter ce délice portugais.</p>
 
         <!-- Liste des restaurants -->
         <div class="restaurant-list">
             <!-- Restaurant 1 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/bacalhau-portugaise">Bacalhau Portugaise</a></h3>
-                <p><span>Adresse :</span> 12 Rue des Écoles, 75005 Paris</p>
-                <p><span>Contact :</span> +33 1 44 32 59 80</p>
-                <p>Ce restaurant met en valeur le Bacalhau sous toutes ses formes, avec des recettes traditionnelles et des accompagnements savoureux.</p>
+                <h3><a href="/restaurant/ramiro">Cervejaria Ramiro - Lisbonne</a></h3>
+                <p><span>Adresse :</span> Av. Almirante Reis nº1, 1150-007 Lisbonne</p>
+                <p><span>Contact :</span> +351 21 885 3016</p>
+                <p>Ce restaurant est un véritable temple du bacalhau et des fruits de mer. Les plats de bacalhau sont cuisinés de façon traditionnelle, avec une touche moderne.</p>
             </div>
             <!-- Restaurant 2 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/la-taberna-do-bacalhau">La Taberna do Bacalhau</a></h3>
-                <p><span>Adresse :</span> 45 Rue de la Gaieté, 75014 Paris</p>
-                <p><span>Contact :</span> +33 1 43 36 78 90</p>
-                <p>Venez découvrir leur Bacalhau rôti, un véritable délice, accompagné de légumes frais et de sauces maison.</p>
+                <h3><a href="/restaurant/marisqueira">Marisqueira O Barqueiro - Porto</a></h3>
+                <p><span>Adresse :</span> Rua da Alegria 611, 4000-046 Porto</p>
+                <p><span>Contact :</span> +351 22 208 6584</p>
+                <p>Située dans le centre de Porto, cette marisqueira est réputée pour son bacalhau grillé à la perfection, accompagné de pommes de terre et d'épices locales.</p>
             </div>
             <!-- Restaurant 3 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/casa-bacalhau">Casa Bacalhau</a></h3>
-                <p><span>Adresse :</span> 18 Rue des Petits Champs, 75002 Paris</p>
-                <p><span>Contact :</span> +33 1 42 60 22 44</p>
-                <p>La spécialité du restaurant est le Bacalhau à la braise, préparé selon la recette traditionnelle de la côte portugaise.</p>
+                <h3><a href="/restaurant/bacalhau-da-vovo">Bacalhau da Vóvó - Faro</a></h3>
+                <p><span>Adresse :</span> Rua do Comércio 12, 8000-138 Faro</p>
+                <p><span>Contact :</span> +351 289 899 456</p>
+                <p>Un restaurant familial où vous pourrez goûter au bacalhau sous diverses formes, de la morue séchée au bacalhau à brás.</p>
             </div>
             <!-- Restaurant 4 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/portugal-bacalhau">Portugal Bacalhau</a></h3>
-                <p><span>Adresse :</span> 7 Rue de la Chaussee d'Antin, 75009 Paris</p>
-                <p><span>Contact :</span> +33 1 44 55 72 22</p>
-                <p>Un restaurant cosy où vous pourrez déguster un Bacalhau délicieux, avec une recette maison et une ambiance typiquement portugaise.</p>
+                <h3><a href="/restaurant/adega-mia">Adega Mia - Sintra</a></h3>
+                <p><span>Adresse :</span> Rua da Cintura do Porto de Lisboa, 1300-306 Lisbonne</p>
+                <p><span>Contact :</span> +351 21 362 2600</p>
+                <p>Avec une vue imprenable sur le port de Lisbonne, Adega Mia est un excellent choix pour savourer un bacalhau traditionnel dans une ambiance conviviale.</p>
             </div>
             <!-- Restaurant 5 -->
             <div class="restaurant">
-                <h3><a href="/restaurant/bacalhau-delices">Bacalhau Délices</a></h3>
-                <p><span>Adresse :</span> 10 Rue des Flandres, 75019 Paris</p>
-                <p><span>Contact :</span> +33 1 42 00 23 45</p>
-                <p>Un endroit parfait pour savourer un Bacalhau frais et bien préparé, servi avec des légumes de saison et une sauce savoureuse.</p>
+                <h3><a href="/restaurant/restaurante-bacalhau">Restaurante Bacalhau & Companhia - Évora</a></h3>
+                <p><span>Adresse :</span> Rua de São Mamede 18, 1100-234 Lisbonne</p>
+                <p><span>Contact :</span> +351 21 882 4565</p>
+                <p>Un restaurant où le bacalhau est roi ! Dégustez des plats variés de bacalhau, préparés de manière traditionnelle et servies dans une ambiance chaleureuse.</p>
             </div>
         </div>
     </div>

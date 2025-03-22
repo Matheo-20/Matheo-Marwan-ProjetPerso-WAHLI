@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez les meilleurs restaurants en Chine pour savourer les nems, une spécialité croustillante et savoureuse.">
     <link rel="stylesheet" href="{{ asset('Css/restaurants.css') }}">
+    <link rel="stylesheet" href="{{ asset('Css/plat.css') }}">
     <link rel="stylesheet" href="{{ asset('Css/app.css') }}">
     <title>Top 5 Restaurants pour Déguster des Nems en Chine</title>
     <style>

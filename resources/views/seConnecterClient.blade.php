@@ -27,7 +27,7 @@
             <p>Connexion refusée.</P>
             @endif
 
-            <form method="POST" action="/client/connecter" >
+            <form method="POST" action="connecter" >
                 {{ csrf_field() }}
                 <label for="email">email : </label>
                 <input type="email" name="email" id="email">

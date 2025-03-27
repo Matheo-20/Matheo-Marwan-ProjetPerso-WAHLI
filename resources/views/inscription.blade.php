@@ -22,11 +22,17 @@
         <!-- Inscription Form -->
         <div class="auth-form">
             <h2>S'inscrire</h2>
-            <form action="inscription" method="POST">
+            <form class="Client-form" action="{{ route('Client.create')}}" method="POST">
                 @csrf
-                <label for="name">Nom complet</label>
-                <input type="text" name="name" id="name" placeholder="Entrez votre nom" value="{{ old('name') }}" required autofocus>
-                @error('name')
+                <label for="nom">Nom </label>
+                <input type="nom" name="nom" id="nom" placeholder="Entrez votre nom" value="{{ old('nom') }}" required autofocus>
+                @error('nom')
+                    <div class="error-message">{{ $message }}</div>
+                @enderror
+                
+                <label for="prenom">Prenom </label>
+                <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prenom" value="{{ old('prenom') }}" required autofocus>
+                @error('prenom')
                     <div class="error-message">{{ $message }}</div>
                 @enderror
 
@@ -36,9 +42,9 @@
                     <div class="error-message">{{ $message }}</div>
                 @enderror
 
-                <label for="password">Mot de passe</label>
-                <input type="password" name="password" id="password" placeholder="Créez un mot de passe" required>
-                @error('password')
+                <label for="mdp">Mot de passe</label>
+                <input type="mdp" name="mdp" id="password" placeholder="Créez un mot de passe" required>
+                @error('mdp')
                     <div class="error-message">{{ $message }}</div>
                 @enderror
 

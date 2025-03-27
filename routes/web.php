@@ -14,6 +14,15 @@ Route::get('/AccueilClient','App\Http\Controllers\ClientController@AccueilClient
 Route::get('/Contacts', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('/Contacts', [ContactsController::class, 'store'])->name('contact.store');
 
+
+Route::get('/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient');
+Route::POST('/connecter',[ClientController::class, 'connecter']);
+
+
+Route::get('/Inscription', [ClientController::class, 'create'])->name('Client.create');
+Route::post('/Inscription', [ClientController::class, 'store'])->name('Client.store');
+
+
 Route::get('/AsieSpe','App\Http\Controllers\ClientController@AsieSpe');
 Route::get('/Canada','App\Http\Controllers\ClientController@Canada');
 
@@ -302,8 +311,6 @@ Route::get('/ListeResto','App\Http\Controllers\ClientController@ListeResto');
 Route::get('/inscription','App\Http\Controllers\ClientController@inscription'); 
 Route::POST('/inscription','App\Http\Controllers\ClientController@inscription'); 
 
-Route::get('/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient');
-Route::POST('/connecter',[ClientController::class, 'connecter']);
 
 
 

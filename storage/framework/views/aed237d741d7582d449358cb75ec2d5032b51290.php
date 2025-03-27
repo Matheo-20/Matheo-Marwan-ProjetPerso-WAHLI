@@ -27,7 +27,7 @@
             <p>Connexion refusée.</P>
             <?php endif; ?>
 
-            <form method="POST" action="/client/connecter" >
+            <form method="POST" action="connecter" >
                 <?php echo e(csrf_field()); ?>
 
                 <label for="email">email : </label>

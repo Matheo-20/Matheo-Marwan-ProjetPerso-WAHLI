@@ -22,11 +22,24 @@
         <!-- Inscription Form -->
         <div class="auth-form">
             <h2>S'inscrire</h2>
-            <form action="inscription" method="POST">
+            <form class="Client-form" action="<?php echo e(route('Client.create')); ?>" method="POST">
                 <?php echo csrf_field(); ?>
-                <label for="name">Nom complet</label>
-                <input type="text" name="name" id="name" placeholder="Entrez votre nom" value="<?php echo e(old('name')); ?>" required autofocus>
-                <?php $__errorArgs = ['name'];
+                <label for="nom">Nom </label>
+                <input type="nom" name="nom" id="nom" placeholder="Entrez votre nom" value="<?php echo e(old('nom')); ?>" required autofocus>
+                <?php $__errorArgs = ['nom'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                    <div class="error-message"><?php echo e($message); ?></div>
+                <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
+                
+                <label for="prenom">Prenom </label>
+                <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prenom" value="<?php echo e(old('prenom')); ?>" required autofocus>
+                <?php $__errorArgs = ['prenom'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -50,9 +63,9 @@ if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
 
-                <label for="password">Mot de passe</label>
-                <input type="password" name="password" id="password" placeholder="Créez un mot de passe" required>
-                <?php $__errorArgs = ['password'];
+                <label for="mdp">Mot de passe</label>
+                <input type="mdp" name="mdp" id="password" placeholder="Créez un mot de passe" required>
+                <?php $__errorArgs = ['mdp'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }

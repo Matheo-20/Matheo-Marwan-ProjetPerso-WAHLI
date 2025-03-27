@@ -37,8 +37,29 @@ class ClientController extends Controller {
             }
         }
         
-        
-        
+      
+      
+      
+      
+    public function create(){
+         return view ('vue-espace-perso');
+  }
+      
+  public function store(Request $request){
+    
+    $client = Client::create([
+        'nom' => $request->nom,
+        'prenom' => $request->prenom,
+        'email' => $request->email,
+        'mdp' => bcrypt($request->mdp),  
+    ]);
+
+    return redirect()->route('Client.create')->with('success', 'Inscription réussie!');
+}
+
+    
+       
+   
         
         
         

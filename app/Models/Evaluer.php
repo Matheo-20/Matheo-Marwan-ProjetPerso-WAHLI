@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Evaluer extends Model
 {
     protected $table = 'evaluers'; 
-    protected $fillable = ['plat_id', 'commentaire', 'note'];
+    protected $fillable = ['client_id', 'plat_id', 'commentaire', 'note'];
 }

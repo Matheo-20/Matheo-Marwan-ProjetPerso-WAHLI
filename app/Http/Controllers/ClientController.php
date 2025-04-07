@@ -3,40 +3,36 @@
 namespace App\Http\Controllers;
 
 use App\Models\Client;
-
 use Illuminate\Support\Facades\Hash; 
-
 use Illuminate\Http\Request;
 
 class ClientController extends Controller {
     
     public function AccueilClient(){
-        return view ('AccueilClient');
+        return view('AccueilClient');
     }
 
     public function connexionClient(){
-        return view ('connexionClient');
+        return view('connexionClient');
     }
     
-
     public function connecter(Request $request)
-    {
-        $email = $request->input('email');
-        $mdp = $request->input('mdp');
+{
+    $email = $request->input('email');
+    $mdp = $request->input('mdp');
     
-        $client = Client::where('email', $email)->first();
-    
-        if ($client && Hash::check($mdp, $client->mdp)) {
-            session()->put('clients', $client);
-            return view('vue-espace-perso');
-        } else {
-            return view('seConnecterClient')->with('connexion_nok', true);
-        }
-    }
-    
-      
+    $client = Client::where('email', $email)->first();
 
-      
+    if ($client && Hash::check($mdp, $client->mdp)) {
+        // Stockez l'objet client ET son ID séparément pour plus de sécurité
+        session()->put('clients', $client);
+        session()->put('client_id', $client->id); // Critique pour votre cas
+        
+        return view('vue-espace-perso');
+    } else {
+        return view('seConnecterClient')->with('connexion_nok', true);
+    }
+}
       
     public function create(){
          return view ('inscriptionreussi');

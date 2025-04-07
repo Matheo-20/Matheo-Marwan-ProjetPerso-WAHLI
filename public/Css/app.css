@@ -1,0 +1,188 @@
+/* Style global */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #3498db; /* Bleu */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background-color: #5dade2; /* Bleu clair */
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #3498db; /* Bleu */
+    border-radius: 5px;
+}
+
+/* Main content */
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 36px;
+    color: #3498db; /* Bleu */
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Grid for specialities */
+.specialities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.speciality {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.speciality:hover {
+    transform: scale(1.05);
+}
+
+.speciality img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #3498db; /* Bleu */
+}
+
+.speciality h3 {
+    font-size: 24px;
+    color: #3498db; /* Bleu */
+    padding: 20px;
+}
+
+.speciality p {
+    font-size: 16px;
+    color: #555;
+    padding: 0 20px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #3498db; /* Bleu */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Style pour les boutons */
+.continent-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.continent-btn {
+    background-color: #4CAF50; /* Couleur de fond */
+    color: white; /* Texte blanc */
+    border: none;
+    border-radius: 8px; /* Coins arrondis */
+    padding: 12px 25px; /* Taille du bouton */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Animation lors du survol */
+    margin: 10px;
+}
+
+.continent-btn:hover {
+    background-color: #45a049; /* Changement de couleur au survol */
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+
+.continent-btn:focus {
+    outline: none; /* Retirer l'effet de focus (optionnel) */
+}
+
+.continent-btn:active {
+    background-color: #388e3c; /* Couleur plus foncée lors du clic */
+}
+
+/* Style global pour les boutons */
+.country-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 15px; /* Espacement entre les boutons */
+}
+
+.country-btn {
+    background-color: #007BFF; /* Bleu de fond */
+    color: white; /* Texte en blanc */
+    border: none;
+    border-radius: 8px; /* Coins arrondis */
+    padding: 12px 20px; /* Taille du bouton */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Animation lors du survol */
+    text-align: center;
+    width: 180px;
+    height: 50px;
+}
+
+.country-btn:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+
+.country-btn:focus {
+    outline: none; /* Retirer l'effet de focus */
+}
+
+.country-btn:active {
+    background-color: #004085; /* Couleur plus foncée lors du clic */
+}

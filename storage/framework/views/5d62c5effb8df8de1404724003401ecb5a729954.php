@@ -1,0 +1,1 @@
+<?php /**PATH /var/www/html/WAHLI/resources/views/connecter.blade.php ENDPATH**/ ?>

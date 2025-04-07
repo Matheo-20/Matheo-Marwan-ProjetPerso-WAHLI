@@ -6,26 +6,19 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
-    {
-        Schema::create('evaluers', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
-    }
+{
+    Schema::create('evaluers', function (Blueprint $table) {
+        $table->id();
+        $table->unsignedBigInteger('client_id');
+        $table->unsignedBigInteger('plat_id');
+        $table->text('commentaire');
+        $table->tinyInteger('note')->nullable(); 
+        $table->timestamps();
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('evaluers');
-    }
+        $table->foreign('client_id')->references('id')->on('clients');
+        $table->foreign('plat_id')->references('id')->on('plats');
+    });
+}
+
 };

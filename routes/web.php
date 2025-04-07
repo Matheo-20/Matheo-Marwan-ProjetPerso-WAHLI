@@ -3,8 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\LaisserAvisController;
 
 
+
+Route::get('/LaisserAvis', [LaisserAvisController::class, 'create'])->name('evaluers.create');
+Route::post('/LaisserAvis', [LaisserAvisController::class, 'store'])->name('evaluers.store');
 
 
 Route::get('/','App\Http\Controllers\ClientController@AccueilClient');
@@ -13,6 +17,10 @@ Route::get('/AccueilClient','App\Http\Controllers\ClientController@AccueilClient
 
 Route::get('/Contacts', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('/Contacts', [ContactsController::class, 'store'])->name('contact.store');
+
+
+
+
 
 
 Route::get('/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient');
@@ -352,8 +360,6 @@ Route::get('/reinitialiserMdp','App\Http\Controllers\ClientController@reinitiali
 
 Route::get('/choisirPays','App\Http\Controllers\ClientController@ChoisirPays'); 
 
-
-Route::get('/laisserAvis','App\Http\Controllers\ClientController@LaisserAvis'); 
 
 
 

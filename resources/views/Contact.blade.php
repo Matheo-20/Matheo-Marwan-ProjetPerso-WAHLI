@@ -11,24 +11,23 @@
 </head>
 <body>
 
-    <!-- Header -->
+   
     <header>
         <h1>WAHLI</h1>
         <p>Voyagez à travers les saveurs du monde entier</p>
     </header>
 
-    <!-- Logo -->
+  
     <div class="logo">
         <span>W</span>
     </div>
 
-    <!-- Navigation -->
+   
     <nav>
         <a href="AccueilClient">Accueil</a>
         <a href="Contact">Contact</a>
     </nav>
 
-    <!-- Section Contact -->
     <div class="contact-section">
         <h2>Contactez-nous</h2>
         <form class="contact-form" action="{{ route('contact.create')}}" method="POST">
@@ -49,13 +48,13 @@
         </form>
     </div>
 
-    <!-- Informations supplémentaires -->
+   
     <div class="contact-details">
         <p>Email : <a href="mailto:contact@wahli.com">contact@wahli.com</a></p>
         <p>Téléphone : <a href="tel:+330123456789">+33 6 10 10 64 29</a></p>
     </div>
 
-    <!-- Footer -->
+   
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
         <p>Conçu avec passion. <a href="#">Mentions légales</a></p>

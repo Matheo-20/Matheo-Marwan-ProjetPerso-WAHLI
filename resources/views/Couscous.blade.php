@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <!-- Header -->
+   
     <header>
         <h1>Les 5 Meilleurs Restaurants pour Déguster du Couscous au Maroc</h1>
         <p>Un plat traditionnel marocain, riche en saveurs et épices, incontournable dans la cuisine du pays.</p>
@@ -21,44 +21,45 @@
     <nav>
         <a href="AccueilClient">Accueil</a>
         <a href="Contact">Contact</a>
+        <a href="LaisserAvis">Laisser un avis</a>
     </nav>
 
-    <!-- Main content -->
+   
     <div class="main-content">
         <h2>Le Couscous : Un Plat Traditionnel du Maroc</h2>
         <p>Le couscous, préparé avec des légumes, des viandes et des épices, est un plat savoureux au cœur de la gastronomie marocaine. Voici quelques restaurants où vous pourrez déguster ce mets délicieux au Maroc :</p>
 
-        <!-- Liste des restaurants -->
+      
         <div class="restaurant-list">
-            <!-- Restaurant 1 -->
+           
             <div class="restaurant">
                 <h3><a href="/restaurant/restaurant-moroccan-couscous">Restaurant Moroccan Couscous</a></h3>
                 <p><span>Adresse :</span> Rue de la Médina, Marrakech, Maroc</p>
                 <p><span>Contact :</span> +212 5 24 38 21 45</p>
                 <p>Un restaurant réputé pour son couscous aux légumes, parfumé et généreux, idéalement situé dans la médina de Marrakech.</p>
             </div>
-            <!-- Restaurant 2 -->
+            
             <div class="restaurant">
                 <h3><a href="/restaurant/riad-couscous">Riad Couscous</a></h3>
                 <p><span>Adresse :</span> Riad Zitoune, Fès, Maroc</p>
                 <p><span>Contact :</span> +212 5 35 63 71 98</p>
                 <p>Ce riad offre un couscous royal accompagné de viandes grillées et de légumes, un délice pour les amateurs de cuisine marocaine.</p>
             </div>
-            <!-- Restaurant 3 -->
+           
             <div class="restaurant">
                 <h3><a href="/restaurant/couscous-royal">Couscous Royal</a></h3>
                 <p><span>Adresse :</span> Place Jemaa El-Fna, Marrakech, Maroc</p>
                 <p><span>Contact :</span> +212 5 24 38 56 23</p>
                 <p>Un endroit emblématique pour goûter à un couscous royal préparé selon les traditions culinaires marocaines.</p>
             </div>
-            <!-- Restaurant 4 -->
+           
             <div class="restaurant">
                 <h3><a href="/restaurant/chez-ali-couscous">Chez Ali Couscous</a></h3>
                 <p><span>Adresse :</span> Avenue Mohammed V, Casablanca, Maroc</p>
                 <p><span>Contact :</span> +212 5 22 30 39 28</p>
                 <p>Un restaurant populaire à Casablanca, où vous pourrez savourer un couscous accompagné de viande d'agneau et de légumes frais.</p>
             </div>
-            <!-- Restaurant 5 -->
+           
             <div class="restaurant">
                 <h3><a href="/restaurant/couscous-et-tajine">Couscous et Tajine</a></h3>
                 <p><span>Adresse :</span> Rue Moulay Idriss, Rabat, Maroc</p>
@@ -68,7 +69,7 @@
         </div>
     </div>
 
-    <!-- Footer -->
+    
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
         <p>Conçu avec passion. <a href="#">Mentions légales</a></p>

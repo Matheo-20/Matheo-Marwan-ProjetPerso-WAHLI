@@ -6,9 +6,6 @@ use Illuminate\Http\Request;
 
 class ContactsController extends Controller
 {
-    public function create(){
-        return view ('confirmation');
-    }
 
     public function store(Request $request)
     {
@@ -27,7 +24,6 @@ class ContactsController extends Controller
         return view('confirmation');
         
     }
-    
     public function AccueilClient(){
         return view ('AcceuilClient');
     }

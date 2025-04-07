@@ -14,8 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('plats', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id(); 
+            $table->string('nom'); 
+            $table->text('paysPlat')->nullable(); 
+            $table->timestamps(); 
         });
     }
 

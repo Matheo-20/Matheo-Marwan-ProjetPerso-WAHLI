@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Client;
 
-
+use Illuminate\Support\Facades\Hash; 
 
 use Illuminate\Http\Request;
 
@@ -17,32 +17,29 @@ class ClientController extends Controller {
     public function connexionClient(){
         return view ('connexionClient');
     }
+    
 
-    public function connecter(Request $request){
-
-        $email = $request -> input('email');
-        $mdp = $request -> input('mdp');
-
-        $clients = Client::select('nom','email')
-                            -> where ('email' , $email)
-                            -> where ('mdp', $mdp)
-                            ->first();
-            if($clients){
-
-                session() -> put ('clients' ,$clients);
-                return view ('vue-espace-perso');
-            }
-            else{
-                return view ('seConnecterClient') -> with('connexion_nok',True);
-            }
+    public function connecter(Request $request)
+    {
+        $email = $request->input('email');
+        $mdp = $request->input('mdp');
+    
+        $client = Client::where('email', $email)->first();
+    
+        if ($client && Hash::check($mdp, $client->mdp)) {
+            session()->put('clients', $client);
+            return view('vue-espace-perso');
+        } else {
+            return view('seConnecterClient')->with('connexion_nok', true);
         }
-        
+    }
+    
       
-      
+
       
       
     public function create(){
-         return view ('vue-espace-perso');
+         return view ('inscriptionreussi');
   }
       
   public function store(Request $request){
@@ -57,18 +54,12 @@ class ClientController extends Controller {
     return redirect()->route('Client.create')->with('success', 'Inscription réussie!');
 }
 
-    
-       
-   
-        
-        
-        
-        
-        
-        
-        
-    
+    public function evaluer(){
+        return $this ->belongsToMany(LaisserAvis::class);
+    }
 
+    
+     
 
     public function Pizza(){
         return view ('Pizza');

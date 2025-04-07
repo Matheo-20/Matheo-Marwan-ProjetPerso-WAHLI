@@ -10,53 +10,56 @@
 </head>
 <body>
 
-    <!-- Header -->
+    
     <header>
         <h1>WAHLI - Inscription</h1>
         <p>Créez votre compte pour accéder à toutes nos recettes</p>
     </header>
 
-    <!-- Main content -->
+   
     <div class="auth-container">
 
         <!-- Inscription Form -->
-        <div class="auth-form">
-            <h2>S'inscrire</h2>
-            <form class="Client-form" action="{{ route('Client.create')}}" method="POST">
-                @csrf
-                <label for="nom">Nom </label>
-                <input type="nom" name="nom" id="nom" placeholder="Entrez votre nom" value="{{ old('nom') }}" required autofocus>
-                @error('nom')
-                    <div class="error-message">{{ $message }}</div>
-                @enderror
-                
-                <label for="prenom">Prenom </label>
-                <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prenom" value="{{ old('prenom') }}" required autofocus>
-                @error('prenom')
-                    <div class="error-message">{{ $message }}</div>
-                @enderror
+<div class="auth-form">
+    <h2>S'inscrire</h2>
+    <form class="Client-form" action="{{ route('Client.create') }}" method="POST">
+        @csrf
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Entrez votre email" value="{{ old('email') }}" required>
-                @error('email')
-                    <div class="error-message">{{ $message }}</div>
-                @enderror
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" value="{{ old('nom') }}" required autofocus>
+        @error('nom')
+            <div class="error-message">{{ $message }}</div>
+        @enderror
 
-                <label for="mdp">Mot de passe</label>
-                <input type="mdp" name="mdp" id="password" placeholder="Créez un mot de passe" required>
-                @error('mdp')
-                    <div class="error-message">{{ $message }}</div>
-                @enderror
+        <label for="prenom">Prénom</label>
+        <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" value="{{ old('prenom') }}" required>
+        @error('prenom')
+            <div class="error-message">{{ $message }}</div>
+        @enderror
 
-                <label for="password_confirmation">Confirmer le mot de passe</label>
-                <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirmez votre mot de passe" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Entrez votre email" value="{{ old('email') }}" required>
+        @error('email')
+            <div class="error-message">{{ $message }}</div>
+        @enderror
 
-                <button type="submit">S'inscrire</button>
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" id="mdp" placeholder="Créez un mot de passe" required>
+        @error('mdp')
+            <div class="error-message">{{ $message }}</div>
+        @enderror
 
-                <p>Déjà un compte ? <a href="seConnecterClient">Connectez-vous ici</a></p>
-            </form>
+        <label for="password_confirmation">Confirmer le mot de passe</label>
+        <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirmez votre mot de passe" required>
 
-            <!-- Retour à l'accueil -->
+        <button type="submit">S'inscrire</button>
+
+        <p>Déjà un compte ? <a href="seConnecterClient">Connectez-vous ici</a></p>
+    </form>
+</div>
+
+
+            
             <div class="back-to-home">
                 <a href="AccueilClient" class="button">Retour à l'accueil</a>
             </div>
@@ -64,7 +67,6 @@
 
     </div>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2025 WAHLI - Tous droits réservés</p>
     </footer>

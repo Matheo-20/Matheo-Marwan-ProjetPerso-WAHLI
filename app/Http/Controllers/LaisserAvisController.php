@@ -45,4 +45,16 @@ class LaisserAvisController extends Controller
         return view('avisenvoyer');
     }
 
+    public function avis()
+    {
+        $avis = \DB::table('evaluers')
+            ->join('plats', 'evaluers.plat_id', '=', 'plats.id')
+            ->join('clients', 'evaluers.client_id', '=', 'clients.id')
+            ->select('evaluers.*', 'plats.nom as plat_nom', 'clients.nom as client_nom')
+            ->orderBy('evaluers.created_at', 'desc')
+            ->get();
+    
+        return view('LesAvis', compact('avis')); 
+    }
+
 }

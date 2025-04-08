@@ -15,6 +15,7 @@
 <nav>
     <a href="AccueilClient">Accueil</a>
     <a href="LaisserAvis">Laisser un avis</a>
+    <a href="LesAvis">Les Avis</a>
 </nav>
 
 
@@ -31,9 +32,10 @@
     <h1>Espace personnel</h1>
 
     @if(Session::has('clients') && Session::get('clients') !== null)
-        <h2>{{ Session::get('clients')->nom }}</h2>
-        <h3>{{ Session::get('clients')->email }}</h3>
+        <h3>{{ Session::get('clients')->nom }}</h3>
         <h3>{{ Session::get('clients')->prenom }}</h3>
+        <h3>{{ Session::get('clients')->email }}</h3>
+        
         
     @else
         <h3>Client non connecté.</h3>

@@ -6,6 +6,7 @@ use App\Http\Controllers\ClientController;
 use App\Http\Controllers\LaisserAvisController;
 
 
+Route::get('/LesAvis', [LaisserAvisController::class, 'avis']);
 
 Route::get('/LaisserAvis', [LaisserAvisController::class, 'create'])->name('evaluers.create');
 Route::post('/LaisserAvis', [LaisserAvisController::class, 'store'])->name('evaluers.store');
@@ -17,11 +18,6 @@ Route::get('/AccueilClient','App\Http\Controllers\ClientController@AccueilClient
 
 Route::get('/Contacts', [ContactsController::class, 'create'])->name('contact.create');
 Route::post('/Contacts', [ContactsController::class, 'store'])->name('contact.store');
-
-
-
-
-
 
 Route::get('/seConnecterClient','App\Http\Controllers\ClientController@seConnecterClient');
 Route::POST('/connecter',[ClientController::class, 'connecter']);

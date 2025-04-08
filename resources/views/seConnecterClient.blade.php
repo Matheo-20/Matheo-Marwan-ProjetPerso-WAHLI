@@ -29,7 +29,7 @@
 
             <form method="POST" action="connecter" >
                 {{ csrf_field() }}
-                <label for="email">email : </label>
+                <label for="email">Email : </label>
                 <input type="email" name="email" id="email">
                 <label for="mdp">Mot de passe : </label>
                 <input type="password" name="mdp" id="mdp">

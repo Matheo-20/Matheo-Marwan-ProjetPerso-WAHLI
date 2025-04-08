@@ -24,9 +24,8 @@ class ClientController extends Controller {
     $client = Client::where('email', $email)->first();
 
     if ($client && Hash::check($mdp, $client->mdp)) {
-        // Stockez l'objet client ET son ID séparément pour plus de sécurité
         session()->put('clients', $client);
-        session()->put('client_id', $client->id); // Critique pour votre cas
+        session()->put('client_id', $client->id); 
         
         return view('vue-espace-perso');
     } else {
